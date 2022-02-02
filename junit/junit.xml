@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="2" failures="0" errors="0" time="3.725">
-  <testsuite name="Q2Component" errors="0" failures="0" skipped="1" timestamp="2022-02-02T18:02:42" time="2.806" tests="2">
-    <testcase classname="Q2Component should create" name="Q2Component should create" time="0">
-      <skipped/>
+<testsuites name="jest tests" tests="8" failures="0" errors="0" time="3.918">
+  <testsuite name="Q3Component" errors="0" failures="0" skipped="0" timestamp="2022-02-02T19:28:33" time="3.04" tests="8">
+    <testcase classname="Q3Component should create" name="Q3Component should create" time="0.063">
     </testcase>
-    <testcase classname="Q2Component search should search text bind into p html element" name="Q2Component search should search text bind into p html element" time="0.062">
+    <testcase classname="Q3Component search should search text bind into p html element" name="Q3Component search should search text bind into p html element" time="0.024">
+    </testcase>
+    <testcase classname="Q3Component fruits should return filtered Banana from the list regarding the search value" name="Q3Component fruits should return filtered Banana from the list regarding the search value" time="0.012">
+    </testcase>
+    <testcase classname="Q3Component fruits should return filtered Apple from the list regarding the search value" name="Q3Component fruits should return filtered Apple from the list regarding the search value" time="0.014">
+    </testcase>
+    <testcase classname="Q3Component fruits should return filtered Watermelon from the list regarding the search value" name="Q3Component fruits should return filtered Watermelon from the list regarding the search value" time="0.013">
+    </testcase>
+    <testcase classname="Q3Component fruits should return filtered Mango from the list regarding the search value" name="Q3Component fruits should return filtered Mango from the list regarding the search value" time="0.014">
+    </testcase>
+    <testcase classname="Q3Component fruits should li elements counter equals to filtered fruit list if fruits.length &gt; 0" name="Q3Component fruits should li elements counter equals to filtered fruit list if fruits.length &gt; 0" time="0.015">
+    </testcase>
+    <testcase classname="Q3Component fruits should li element show emptyValue text if fruits.length === 0" name="Q3Component fruits should li element show emptyValue text if fruits.length === 0" time="0.016">
     </testcase>
   </testsuite>
 </testsuites>
