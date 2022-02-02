@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="8" failures="0" errors="0" time="3.918">
-  <testsuite name="Q3Component" errors="0" failures="0" skipped="0" timestamp="2022-02-02T19:28:33" time="3.04" tests="8">
-    <testcase classname="Q3Component should create" name="Q3Component should create" time="0.063">
+<testsuites name="jest tests" tests="7" failures="0" errors="0" time="6.094">
+  <testsuite name="Q4" errors="0" failures="0" skipped="6" timestamp="2022-02-02T20:18:18" time="4.634" tests="7">
+    <testcase classname="Q4 Q4Component should create" name="Q4 Q4Component should create" time="0">
+      <skipped/>
     </testcase>
-    <testcase classname="Q3Component search should search text bind into p html element" name="Q3Component search should search text bind into p html element" time="0.024">
+    <testcase classname="Q4 Q4Component addItem should increase the counter after clicking the button" name="Q4 Q4Component addItem should increase the counter after clicking the button" time="0">
+      <skipped/>
     </testcase>
-    <testcase classname="Q3Component fruits should return filtered Banana from the list regarding the search value" name="Q3Component fruits should return filtered Banana from the list regarding the search value" time="0.012">
+    <testcase classname="Q4 Q4Component addItem should child component temp not exist in the beginning" name="Q4 Q4Component addItem should child component temp not exist in the beginning" time="0">
+      <skipped/>
     </testcase>
-    <testcase classname="Q3Component fruits should return filtered Apple from the list regarding the search value" name="Q3Component fruits should return filtered Apple from the list regarding the search value" time="0.014">
+    <testcase classname="Q4 Q4Component addItem should child component temp exist after clicking the button" name="Q4 Q4Component addItem should child component temp exist after clicking the button" time="0">
+      <skipped/>
     </testcase>
-    <testcase classname="Q3Component fruits should return filtered Watermelon from the list regarding the search value" name="Q3Component fruits should return filtered Watermelon from the list regarding the search value" time="0.013">
+    <testcase classname="Q4 Q4ChildComponent should create" name="Q4 Q4ChildComponent should create" time="0">
+      <skipped/>
     </testcase>
-    <testcase classname="Q3Component fruits should return filtered Mango from the list regarding the search value" name="Q3Component fruits should return filtered Mango from the list regarding the search value" time="0.014">
+    <testcase classname="Q4 Q4ChildComponent should p tag repeats as value" name="Q4 Q4ChildComponent should p tag repeats as value" time="0">
+      <skipped/>
     </testcase>
-    <testcase classname="Q3Component fruits should li elements counter equals to filtered fruit list if fruits.length &gt; 0" name="Q3Component fruits should li elements counter equals to filtered fruit list if fruits.length &gt; 0" time="0.015">
-    </testcase>
-    <testcase classname="Q3Component fruits should li element show emptyValue text if fruits.length === 0" name="Q3Component fruits should li element show emptyValue text if fruits.length === 0" time="0.016">
+    <testcase classname="Q4 Q4ChildComponent should p tag text contains the for loop index" name="Q4 Q4ChildComponent should p tag text contains the for loop index" time="0.264">
     </testcase>
   </testsuite>
 </testsuites>
