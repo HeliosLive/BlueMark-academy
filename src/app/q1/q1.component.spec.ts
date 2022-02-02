@@ -1,28 +1,56 @@
-/* tslint:disable:no-unused-variable */
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { By } from '@angular/platform-browser';
-import { DebugElement } from '@angular/core';
+import { createComponentFactory, Spectator } from '@ngneat/spectator/jest';
 
 import { Q1Component } from './q1.component';
 
 describe('Q1Component', () => {
-  let component: Q1Component;
-  let fixture: ComponentFixture<Q1Component>;
+  let spectator: Spectator<Q1Component>;
 
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
-      declarations: [ Q1Component ]
-    })
-    .compileComponents();
-  }));
+  const createComponent = createComponentFactory({
+    component: Q1Component,
+    shallow: true,
+  });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(Q1Component);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
+    spectator = createComponent();
   });
 
   it('should create', () => {
-    expect(component).toBeTruthy();
+    expect(spectator.component).toBeTruthy();
+  });
+
+  describe('setCounter', () => {
+    it('should increase the counter', () => {
+      jest.spyOn(spectator.component, 'setCounter');
+
+      const button = spectator.query(`[testId="increase-button"]`);
+      const label = spectator.query(`p`);
+      const value = spectator.component.counter;
+
+      if (button) {
+        spectator.click(button);
+      }
+
+      expect(spectator.component.setCounter).toHaveBeenCalled();
+      expect(spectator.component.setCounter).toHaveBeenCalledWith('up');
+      expect(spectator.component.counter).toEqual(value + 1);
+      expect(label).toContainText(`${value + 1}`);
+    });
+
+    it('should decrease the counter', () => {
+      jest.spyOn(spectator.component, 'setCounter');
+
+      const button = spectator.query(`[testId="decrease-button"]`);
+      const label = spectator.query(`p`);
+      const value = spectator.component.counter;
+
+      if (button) {
+        spectator.click(button);
+      }
+
+      expect(spectator.component.setCounter).toHaveBeenCalled();
+      expect(spectator.component.setCounter).toHaveBeenCalledWith('down');
+      expect(spectator.component.counter).toEqual(value - 1);
+      expect(label).toContainText(`${value - 1}`);
+    });
   });
 });
