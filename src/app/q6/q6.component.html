@@ -1,0 +1,8 @@
+<form novalidate autocomplete="off" [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+  <label for="name">Name:</label>
+  <input id="name" formControlName="name" />
+
+  <button type="submit" [disabled]="!registerForm?.valid">Submit</button>
+</form>
+
+<p *ngIf="isRegistered">Hello {{registerForm?.value?.name}}, you are registered successfully!</p>
