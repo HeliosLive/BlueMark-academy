@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\app.component.spec.ts">
+        <testCase name="AppComponent should create" duration="75"/>
+        <testCase name="AppComponent should have as title &apos;BlueMark-academy&apos;" duration="17"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q1\q1.component.spec.ts">
+        <testCase name="Q1Component should create" duration="95"/>
+        <testCase name="Q1Component setCounter should increase the counter" duration="60"/>
+        <testCase name="Q1Component setCounter should decrease the counter" duration="17"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q4\q4.component.spec.ts">
+        <testCase name="Q4 Q4Component should create" duration="102"/>
+        <testCase name="Q4 Q4Component addItem should increase the counter after clicking the button" duration="35"/>
+        <testCase name="Q4 Q4Component addItem should child component temp not exist in the beginning" duration="48"/>
+        <testCase name="Q4 Q4Component addItem should child component temp exist after clicking the button" duration="26"/>
+        <testCase name="Q4 Q4ChildComponent should create" duration="30"/>
+        <testCase name="Q4 Q4ChildComponent should p tag repeats as value" duration="25"/>
+        <testCase name="Q4 Q4ChildComponent should p tag text contains the for loop index" duration="12"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q2\q2.component.spec.ts">
+        <testCase name="Q2Component should create" duration="143"/>
+        <testCase name="Q2Component search should search text bind into p html element" duration="26"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q5\q5.component.spec.ts">
+        <testCase name="Q5 Q5Component should create" duration="113"/>
+        <testCase name="Q5 Q5Component onSubmit should set the name variable what has been sent to the method as a param" duration="34"/>
+        <testCase name="Q5 Q5Component onSubmit should p tag repeats as value" duration="18"/>
+        <testCase name="Q5 Q5ChildComponent should create" duration="25"/>
+        <testCase name="Q5 Q5ChildComponent should input value bind to value variable" duration="20"/>
+        <testCase name="Q5 Q5ChildComponent should button emits the input value through submit output" duration="14"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q3\q3.component.spec.ts">
+        <testCase name="Q3Component should create" duration="119"/>
+        <testCase name="Q3Component search should search text bind into p html element" duration="55"/>
+        <testCase name="Q3Component fruits should return filtered Banana from the list regarding the search value" duration="56"/>
+        <testCase name="Q3Component fruits should return filtered Apple from the list regarding the search value" duration="25"/>
+        <testCase name="Q3Component fruits should return filtered Watermelon from the list regarding the search value" duration="27"/>
+        <testCase name="Q3Component fruits should return filtered Mango from the list regarding the search value" duration="24"/>
+        <testCase name="Q3Component fruits should li elements counter equals to filtered fruit list if fruits.length &gt; 0" duration="17"/>
+        <testCase name="Q3Component fruits should li element show emptyValue text if fruits.length === 0" duration="14"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q6\q6.component.spec.ts">
+        <testCase name="Q6Component should create" duration="64"/>
+        <testCase name="Q6Component should button has to be disabled if name input is empty" duration="35"/>
+        <testCase name="Q6Component should button not to be disabled if name input is not empty" duration="32"/>
+        <testCase name="Q6Component onSubmit should p tag not exist until form register completed" duration="13"/>
+        <testCase name="Q6Component onSubmit should p tag contains the name has been submitted from register form" duration="24"/>
+    </file>
+</testExecutions>
