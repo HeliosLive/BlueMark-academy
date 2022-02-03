@@ -14,8 +14,9 @@ export class Q7Component {
 })
 export class CoolCasePipe implements PipeTransform {
   transform(value: string): string {
+    if (!value) return '';
     return value
-      ?.split('')
+      .split('')
       .map((letter, index) =>
         index & 1 ? letter.toUpperCase() : letter.toLowerCase()
       )
