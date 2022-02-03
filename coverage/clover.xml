@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1643908220039" clover="3.2.0">
-  <project timestamp="1643908220039" name="All files">
-    <metrics statements="58" coveredstatements="58" conditionals="7" coveredconditionals="7" methods="17" coveredmethods="17" elements="82" coveredelements="82" complexity="0" loc="58" ncloc="58" packages="10" files="10" classes="10"/>
+<coverage generated="1643929291461" clover="3.2.0">
+  <project timestamp="1643929291461" name="All files">
+    <metrics statements="65" coveredstatements="65" conditionals="7" coveredconditionals="7" methods="19" coveredmethods="19" elements="91" coveredelements="91" complexity="0" loc="65" ncloc="65" packages="11" files="11" classes="11"/>
     <package name="app">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="app.component.ts" path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\app.component.ts">
@@ -21,6 +21,19 @@
         <line num="12" count="2" type="cond" truecount="2" falsecount="0"/>
         <line num="13" count="1" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.q10">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="q10.component.ts" path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q10\q10.component.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
       </file>
     </package>
     <package name="app.q2">

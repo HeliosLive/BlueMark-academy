@@ -1,0 +1,9 @@
+<button (click)="onShuffle()">Shuffle</button>
+
+<ng-container *ngIf="(cat$ | async) as cat; else emptyTemp">
+  <p>{{cat?.fact}}</p>
+</ng-container>
+
+<ng-template #emptyTemp>
+  <p>{{emptyResponse}}</p>
+</ng-template>
