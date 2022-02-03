@@ -1,0 +1,13 @@
+:host {
+  display: flex;
+  gap: 1rem;
+
+  div {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+  }
+}

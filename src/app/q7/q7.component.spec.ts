@@ -76,6 +76,11 @@ describe('Q7', () => {
         const transformed = spectator.service.transform(value);
         expect(transformed).toEqual(expectation);
       });
+
+      it('should return an empty string if parameter is not a valid string', () => {
+        const transformed = spectator.service.transform(undefined as any);
+        expect(transformed).toEqual('');
+      });
     });
   });
 });
