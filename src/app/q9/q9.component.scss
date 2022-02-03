@@ -1,0 +1,11 @@
+:host {
+  display: grid;
+  justify-items: center;
+  width: fit-content;
+  gap: 1rem;
+
+  .buttons {
+    display: flex;
+    gap: 1rem;
+  }
+}
