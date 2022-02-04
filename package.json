@@ -14,7 +14,8 @@
     "jest:clear": "jest --clearCache",
     "test:ci": "jest --coverage --reporters=jest-junit --reporters=default",
     "postinstall": "ngcc",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "q11": "jest q11.component.spec.ts -t 'Q11'"
   },
   "private": true,
   "dependencies": {
