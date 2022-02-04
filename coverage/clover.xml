@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1643937094642" clover="3.2.0">
-  <project timestamp="1643937094643" name="All files">
-    <metrics statements="88" coveredstatements="88" conditionals="55" coveredconditionals="46" methods="31" coveredmethods="31" elements="174" coveredelements="165" complexity="0" loc="88" ncloc="88" packages="12" files="12" classes="12"/>
+<coverage generated="1643969362887" clover="3.2.0">
+  <project timestamp="1643969362887" name="All files">
+    <metrics statements="96" coveredstatements="96" conditionals="55" coveredconditionals="46" methods="34" coveredmethods="34" elements="185" coveredelements="176" complexity="0" loc="96" ncloc="96" packages="13" files="13" classes="13"/>
     <package name="app">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="app.component.ts" path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\app.component.ts">
@@ -63,6 +63,20 @@
         <line num="74" count="8" type="stmt"/>
         <line num="75" count="24" type="stmt"/>
         <line num="77" count="8" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="app.q12">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="q12.component.ts" path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q12\q12.component.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="12" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="40" count="38" type="stmt"/>
       </file>
     </package>
     <package name="app.q2">
