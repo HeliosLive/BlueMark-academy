@@ -1,0 +1,8 @@
+<form novalidate autocomplete="off" [formGroup]="registerForm">
+  <label for="name">Name:</label>
+  <input id="name" formControlName="name" />
+
+  <p class="error" *ngIf="usernameRequiredError">{{requiredErrorText}}</p>
+  <p class="error" *ngIf="usernameExistError">{{usernameExistErrorText}}</p>
+  <p class="success" *ngIf="usernameErrors">{{usernameAvailableText}}</p>
+</form>
