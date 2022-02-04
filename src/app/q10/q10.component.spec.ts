@@ -7,7 +7,7 @@ import { of } from 'rxjs';
 import type { CatResponse } from './q10.component';
 import { Q10Component } from './q10.component';
 
-describe('Q10Component', () => {
+describe('Q10', () => {
   let spectator: Spectator<Q10Component>;
   const fakeResponse: CatResponse = {
     fact: 'cats are adorable!',

@@ -1,0 +1,14 @@
+<form novalidate autocomplete="off" [formGroup]="paymentForm">
+
+  <select formControlName="cardType">
+    <option [value]="0">select card type</option>
+    <option *ngFor="let datum of cardData" [value]="datum.type">{{datum.type}}</option>
+  </select>
+
+  <label for="cardNumber">cardNumber:</label>
+  <input id="cardNumber" formControlName="cardNumber" />
+
+  <button [disabled]="!paymentForm?.valid">Submit</button>
+
+  <p class="error" *ngIf="misMatch">{{errorText}}</p>
+</form>

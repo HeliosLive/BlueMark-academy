@@ -1,191 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="81" failures="0" errors="0" time="22.313">
-  <testsuite name="AppComponent" errors="0" failures="0" skipped="0" timestamp="2022-02-04T10:09:04" time="15.451" tests="2">
-    <testcase classname="AppComponent should create" name="AppComponent should create" time="0.103">
+<testsuites name="jest tests" tests="90" failures="0" errors="0" time="12.147">
+  <testsuite name="AppComponent" errors="0" failures="0" skipped="0" timestamp="2022-02-04T14:39:43" time="6.505" tests="2">
+    <testcase classname="AppComponent should create" name="AppComponent should create" time="0.118">
     </testcase>
-    <testcase classname="AppComponent should have as title &apos;BlueMark-academy&apos;" name="AppComponent should have as title &apos;BlueMark-academy&apos;" time="0.039">
-    </testcase>
-  </testsuite>
-  <testsuite name="Q1Component" errors="0" failures="0" skipped="0" timestamp="2022-02-04T10:09:04" time="15.773" tests="3">
-    <testcase classname="Q1Component should create" name="Q1Component should create" time="0.142">
-    </testcase>
-    <testcase classname="Q1Component setCounter should increase the counter" name="Q1Component setCounter should increase the counter" time="0.1">
-    </testcase>
-    <testcase classname="Q1Component setCounter should decrease the counter" name="Q1Component setCounter should decrease the counter" time="0.023">
+    <testcase classname="AppComponent should have as title &apos;BlueMark-academy&apos;" name="AppComponent should have as title &apos;BlueMark-academy&apos;" time="0.023">
     </testcase>
   </testsuite>
-  <testsuite name="Q4" errors="0" failures="0" skipped="0" timestamp="2022-02-04T10:09:04" time="15.937" tests="7">
-    <testcase classname="Q4 Q4Component should create" name="Q4 Q4Component should create" time="0.187">
+  <testsuite name="Q5" errors="0" failures="0" skipped="0" timestamp="2022-02-04T14:39:43" time="6.763" tests="6">
+    <testcase classname="Q5 Q5Component should create" name="Q5 Q5Component should create" time="0.129">
     </testcase>
-    <testcase classname="Q4 Q4Component addItem should increase the counter after clicking the button" name="Q4 Q4Component addItem should increase the counter after clicking the button" time="0.038">
+    <testcase classname="Q5 Q5Component onSubmit should set the name variable what has been sent to the method as a param" name="Q5 Q5Component onSubmit should set the name variable what has been sent to the method as a param" time="0.029">
     </testcase>
-    <testcase classname="Q4 Q4Component addItem should child component temp not exist in the beginning" name="Q4 Q4Component addItem should child component temp not exist in the beginning" time="0.027">
+    <testcase classname="Q5 Q5Component onSubmit should p tag repeats as value" name="Q5 Q5Component onSubmit should p tag repeats as value" time="0.025">
     </testcase>
-    <testcase classname="Q4 Q4Component addItem should child component temp exist after clicking the button" name="Q4 Q4Component addItem should child component temp exist after clicking the button" time="0.029">
+    <testcase classname="Q5 Q5ChildComponent should create" name="Q5 Q5ChildComponent should create" time="0.19">
     </testcase>
-    <testcase classname="Q4 Q4ChildComponent should create" name="Q4 Q4ChildComponent should create" time="0.051">
+    <testcase classname="Q5 Q5ChildComponent should input value bind to value variable" name="Q5 Q5ChildComponent should input value bind to value variable" time="0.045">
     </testcase>
-    <testcase classname="Q4 Q4ChildComponent should p tag repeats as value" name="Q4 Q4ChildComponent should p tag repeats as value" time="0.07">
-    </testcase>
-    <testcase classname="Q4 Q4ChildComponent should p tag text contains the for loop index" name="Q4 Q4ChildComponent should p tag text contains the for loop index" time="0.075">
+    <testcase classname="Q5 Q5ChildComponent should button emits the input value through submit output" name="Q5 Q5ChildComponent should button emits the input value through submit output" time="0.044">
     </testcase>
   </testsuite>
-  <testsuite name="Q10Component" errors="0" failures="0" skipped="0" timestamp="2022-02-04T10:09:04" time="15.872" tests="3">
-    <testcase classname="Q10Component should create" name="Q10Component should create" time="0.19">
+  <testsuite name="Q9" errors="0" failures="0" skipped="0" timestamp="2022-02-04T14:39:43" time="6.896" tests="8">
+    <testcase classname="Q9 Q9Component should create" name="Q9 Q9Component should create" time="0.2">
     </testcase>
-    <testcase classname="Q10Component should empty p tag exist before http call" name="Q10Component should empty p tag exist before http call" time="0.081">
+    <testcase classname="Q9 Q9Component onClick should color variable set as red parameter after button click" name="Q9 Q9Component onClick should color variable set as red parameter after button click" time="0.07">
     </testcase>
-    <testcase classname="Q10Component onShuffle should make the call correctly then p tag text contains http response" name="Q10Component onShuffle should make the call correctly then p tag text contains http response" time="0.054">
+    <testcase classname="Q9 Q9Component onClick should color variable set as green parameter after button click" name="Q9 Q9Component onClick should color variable set as green parameter after button click" time="0.042">
     </testcase>
-  </testsuite>
-  <testsuite name="Q8" errors="0" failures="0" skipped="0" timestamp="2022-02-04T10:09:04" time="16.075" tests="8">
-    <testcase classname="Q8 Q8Component should create" name="Q8 Q8Component should create" time="0.143">
+    <testcase classname="Q9 Q9Component onClick should color variable set as blue parameter after button click" name="Q9 Q9Component onClick should color variable set as blue parameter after button click" time="0.02">
     </testcase>
-    <testcase classname="Q8 Q8Component should div background color activated as red parameter after mouseenter" name="Q8 Q8Component should div background color activated as red parameter after mouseenter" time="0.064">
+    <testcase classname="Q9 Q9ChildComponent should create" name="Q9 Q9ChildComponent should create" time="0.034">
     </testcase>
-    <testcase classname="Q8 Q8Component should div background color activated as green parameter after mouseenter" name="Q8 Q8Component should div background color activated as green parameter after mouseenter" time="0.083">
+    <testcase classname="Q9 Q9ChildComponent should host class set as red input" name="Q9 Q9ChildComponent should host class set as red input" time="0.037">
     </testcase>
-    <testcase classname="Q8 Q8Component should div background color activated as yellow parameter after mouseenter" name="Q8 Q8Component should div background color activated as yellow parameter after mouseenter" time="0.073">
+    <testcase classname="Q9 Q9ChildComponent should host class set as green input" name="Q9 Q9ChildComponent should host class set as green input" time="0.016">
     </testcase>
-    <testcase classname="Q8 Q8HighlightDirective should change the background color as red paramater" name="Q8 Q8HighlightDirective should change the background color as red paramater" time="0.062">
-    </testcase>
-    <testcase classname="Q8 Q8HighlightDirective should change the background color as green paramater" name="Q8 Q8HighlightDirective should change the background color as green paramater" time="0.036">
-    </testcase>
-    <testcase classname="Q8 Q8HighlightDirective should change the background color as yellow paramater" name="Q8 Q8HighlightDirective should change the background color as yellow paramater" time="0.03">
-    </testcase>
-    <testcase classname="Q8 Q8HighlightDirective should reset the background color on mouseleave" name="Q8 Q8HighlightDirective should reset the background color on mouseleave" time="0.026">
+    <testcase classname="Q9 Q9ChildComponent should host class set as blue input" name="Q9 Q9ChildComponent should host class set as blue input" time="0.019">
     </testcase>
   </testsuite>
-  <testsuite name="Q9" errors="0" failures="0" skipped="0" timestamp="2022-02-04T10:09:04" time="16.066" tests="8">
-    <testcase classname="Q9 Q9Component should create" name="Q9 Q9Component should create" time="0.205">
+  <testsuite name="Q4" errors="0" failures="0" skipped="0" timestamp="2022-02-04T14:39:43" time="6.912" tests="7">
+    <testcase classname="Q4 Q4Component should create" name="Q4 Q4Component should create" time="0.189">
     </testcase>
-    <testcase classname="Q9 Q9Component onClick should color variable set as red parameter after button click" name="Q9 Q9Component onClick should color variable set as red parameter after button click" time="0.143">
+    <testcase classname="Q4 Q4Component addItem should increase the counter after clicking the button" name="Q4 Q4Component addItem should increase the counter after clicking the button" time="0.03">
     </testcase>
-    <testcase classname="Q9 Q9Component onClick should color variable set as green parameter after button click" name="Q9 Q9Component onClick should color variable set as green parameter after button click" time="0.043">
+    <testcase classname="Q4 Q4Component addItem should child component temp not exist in the beginning" name="Q4 Q4Component addItem should child component temp not exist in the beginning" time="0.042">
     </testcase>
-    <testcase classname="Q9 Q9Component onClick should color variable set as blue parameter after button click" name="Q9 Q9Component onClick should color variable set as blue parameter after button click" time="0.021">
+    <testcase classname="Q4 Q4Component addItem should child component temp exist after clicking the button" name="Q4 Q4Component addItem should child component temp exist after clicking the button" time="0.022">
     </testcase>
-    <testcase classname="Q9 Q9ChildComponent should create" name="Q9 Q9ChildComponent should create" time="0.017">
+    <testcase classname="Q4 Q4ChildComponent should create" name="Q4 Q4ChildComponent should create" time="0.052">
     </testcase>
-    <testcase classname="Q9 Q9ChildComponent should host class set as red input" name="Q9 Q9ChildComponent should host class set as red input" time="0.017">
+    <testcase classname="Q4 Q4ChildComponent should p tag repeats as value" name="Q4 Q4ChildComponent should p tag repeats as value" time="0.028">
     </testcase>
-    <testcase classname="Q9 Q9ChildComponent should host class set as green input" name="Q9 Q9ChildComponent should host class set as green input" time="0.017">
-    </testcase>
-    <testcase classname="Q9 Q9ChildComponent should host class set as blue input" name="Q9 Q9ChildComponent should host class set as blue input" time="0.013">
+    <testcase classname="Q4 Q4ChildComponent should p tag text contains the for loop index" name="Q4 Q4ChildComponent should p tag text contains the for loop index" time="0.064">
     </testcase>
   </testsuite>
-  <testsuite name="Q7" errors="0" failures="0" skipped="0" timestamp="2022-02-04T10:09:04" time="16.379" tests="6">
-    <testcase classname="Q7 Q7Component should create" name="Q7 Q7Component should create" time="0.211">
+  <testsuite name="Q7" errors="0" failures="0" skipped="0" timestamp="2022-02-04T14:39:43" time="6.974" tests="6">
+    <testcase classname="Q7 Q7Component should create" name="Q7 Q7Component should create" time="0.122">
     </testcase>
-    <testcase classname="Q7 Q7Component should input value emits correctly" name="Q7 Q7Component should input value emits correctly" time="0.049">
+    <testcase classname="Q7 Q7Component should input value emits correctly" name="Q7 Q7Component should input value emits correctly" time="0.043">
     </testcase>
-    <testcase classname="Q7 Q7Component should p tag contains what has been typed on input" name="Q7 Q7Component should p tag contains what has been typed on input" time="0.037">
+    <testcase classname="Q7 Q7Component should p tag contains what has been typed on input" name="Q7 Q7Component should p tag contains what has been typed on input" time="0.068">
     </testcase>
-    <testcase classname="Q7 CoolCasePipe should create an instance" name="Q7 CoolCasePipe should create an instance" time="0.019">
+    <testcase classname="Q7 CoolCasePipe should create an instance" name="Q7 CoolCasePipe should create an instance" time="0.007">
     </testcase>
-    <testcase classname="Q7 CoolCasePipe transform should return the coolest text format" name="Q7 CoolCasePipe transform should return the coolest text format" time="0.009">
+    <testcase classname="Q7 CoolCasePipe transform should return the coolest text format" name="Q7 CoolCasePipe transform should return the coolest text format" time="0.006">
     </testcase>
-    <testcase classname="Q7 CoolCasePipe transform should return an empty string if parameter is not a valid string" name="Q7 CoolCasePipe transform should return an empty string if parameter is not a valid string" time="0.009">
-    </testcase>
-  </testsuite>
-  <testsuite name="Q6Component" errors="0" failures="0" skipped="0" timestamp="2022-02-04T10:09:04" time="16.438" tests="5">
-    <testcase classname="Q6Component should create" name="Q6Component should create" time="0.209">
-    </testcase>
-    <testcase classname="Q6Component should button has to be disabled if name input is empty" name="Q6Component should button has to be disabled if name input is empty" time="0.058">
-    </testcase>
-    <testcase classname="Q6Component should button not to be disabled if name input is not empty" name="Q6Component should button not to be disabled if name input is not empty" time="0.074">
-    </testcase>
-    <testcase classname="Q6Component onSubmit should p tag not exist until form register completed" name="Q6Component onSubmit should p tag not exist until form register completed" time="0.052">
-    </testcase>
-    <testcase classname="Q6Component onSubmit should p tag contains the name has been submitted from register form" name="Q6Component onSubmit should p tag contains the name has been submitted from register form" time="0.091">
+    <testcase classname="Q7 CoolCasePipe transform should return an empty string if parameter is not a valid string" name="Q7 CoolCasePipe transform should return an empty string if parameter is not a valid string" time="0.006">
     </testcase>
   </testsuite>
-  <testsuite name="Q5" errors="0" failures="0" skipped="0" timestamp="2022-02-04T10:09:04" time="16.488" tests="6">
-    <testcase classname="Q5 Q5Component should create" name="Q5 Q5Component should create" time="0.166">
+  <testsuite name="Q11" errors="0" failures="0" skipped="0" timestamp="2022-02-04T14:39:43" time="7.044" tests="11">
+    <testcase classname="Q11 Q11Component should create" name="Q11 Q11Component should create" time="0.187">
     </testcase>
-    <testcase classname="Q5 Q5Component onSubmit should set the name variable what has been sent to the method as a param" name="Q5 Q5Component onSubmit should set the name variable what has been sent to the method as a param" time="0.032">
+    <testcase classname="Q11 Q11Component should p element exist with required text if form required error exist" name="Q11 Q11Component should p element exist with required text if form required error exist" time="0.036">
     </testcase>
-    <testcase classname="Q5 Q5Component onSubmit should p tag repeats as value" name="Q5 Q5Component onSubmit should p tag repeats as value" time="0.038">
+    <testcase classname="Q11 Q11Component should p element exist with usernameExist text if form usernameExist error exist" name="Q11 Q11Component should p element exist with usernameExist text if form usernameExist error exist" time="0.075">
     </testcase>
-    <testcase classname="Q5 Q5ChildComponent should create" name="Q5 Q5ChildComponent should create" time="0.147">
+    <testcase classname="Q11 Q11Component should p element exist with usernameAvailable text if form usernameAvailable exist" name="Q11 Q11Component should p element exist with usernameAvailable text if form usernameAvailable exist" time="0.048">
     </testcase>
-    <testcase classname="Q5 Q5ChildComponent should input value bind to value variable" name="Q5 Q5ChildComponent should input value bind to value variable" time="0.048">
+    <testcase classname="Q11 Q11Service should create" name="Q11 Q11Service should create" time="0.008">
     </testcase>
-    <testcase classname="Q5 Q5ChildComponent should button emits the input value through submit output" name="Q5 Q5ChildComponent should button emits the input value through submit output" time="0.031">
+    <testcase classname="Q11 Q11Service checkUsername should return true for ahMet" name="Q11 Q11Service checkUsername should return true for ahMet" time="0.01">
     </testcase>
-  </testsuite>
-  <testsuite name="Q3Component" errors="0" failures="0" skipped="0" timestamp="2022-02-04T10:09:04" time="16.643" tests="8">
-    <testcase classname="Q3Component should create" name="Q3Component should create" time="0.232">
+    <testcase classname="Q11 Q11Service checkUsername should return true for JASPER" name="Q11 Q11Service checkUsername should return true for JASPER" time="0.023">
     </testcase>
-    <testcase classname="Q3Component search should search text bind into p html element" name="Q3Component search should search text bind into p html element" time="0.101">
-    </testcase>
-    <testcase classname="Q3Component fruits should return filtered Banana from the list regarding the search value" name="Q3Component fruits should return filtered Banana from the list regarding the search value" time="0.038">
-    </testcase>
-    <testcase classname="Q3Component fruits should return filtered Apple from the list regarding the search value" name="Q3Component fruits should return filtered Apple from the list regarding the search value" time="0.03">
-    </testcase>
-    <testcase classname="Q3Component fruits should return filtered Watermelon from the list regarding the search value" name="Q3Component fruits should return filtered Watermelon from the list regarding the search value" time="0.035">
-    </testcase>
-    <testcase classname="Q3Component fruits should return filtered Mango from the list regarding the search value" name="Q3Component fruits should return filtered Mango from the list regarding the search value" time="0.023">
-    </testcase>
-    <testcase classname="Q3Component fruits should li elements counter equals to filtered fruit list if fruits.length &gt; 0" name="Q3Component fruits should li elements counter equals to filtered fruit list if fruits.length &gt; 0" time="0.028">
-    </testcase>
-    <testcase classname="Q3Component fruits should li element show emptyValue text if fruits.length === 0" name="Q3Component fruits should li element show emptyValue text if fruits.length === 0" time="0.035">
-    </testcase>
-  </testsuite>
-  <testsuite name="Q11" errors="0" failures="0" skipped="0" timestamp="2022-02-04T10:09:04" time="17.217" tests="11">
-    <testcase classname="Q11 Q11Component should create" name="Q11 Q11Component should create" time="0.149">
-    </testcase>
-    <testcase classname="Q11 Q11Component should p element exist with required text if form required error exist" name="Q11 Q11Component should p element exist with required text if form required error exist" time="0.046">
-    </testcase>
-    <testcase classname="Q11 Q11Component should p element exist with usernameExist text if form usernameExist error exist" name="Q11 Q11Component should p element exist with usernameExist text if form usernameExist error exist" time="0.061">
-    </testcase>
-    <testcase classname="Q11 Q11Component should p element exist with usernameAvailable text if form usernameAvailable exist" name="Q11 Q11Component should p element exist with usernameAvailable text if form usernameAvailable exist" time="0.054">
-    </testcase>
-    <testcase classname="Q11 Q11Service should create" name="Q11 Q11Service should create" time="0.004">
-    </testcase>
-    <testcase classname="Q11 Q11Service checkUsername should return true for ahMet" name="Q11 Q11Service checkUsername should return true for ahMet" time="0.015">
-    </testcase>
-    <testcase classname="Q11 Q11Service checkUsername should return true for JASPER" name="Q11 Q11Service checkUsername should return true for JASPER" time="0.016">
-    </testcase>
-    <testcase classname="Q11 Q11Service checkUsername should return true for marta" name="Q11 Q11Service checkUsername should return true for marta" time="0.015">
+    <testcase classname="Q11 Q11Service checkUsername should return true for marta" name="Q11 Q11Service checkUsername should return true for marta" time="0.018">
     </testcase>
     <testcase classname="Q11 Q11Service checkUsername should return false for Jason" name="Q11 Q11Service checkUsername should return false for Jason" time="0.016">
     </testcase>
     <testcase classname="Q11 Q11Service checkUsername should return false for RaMazaN" name="Q11 Q11Service checkUsername should return false for RaMazaN" time="0.015">
     </testcase>
-    <testcase classname="Q11 Q11Service checkUsername should return false for UfUK" name="Q11 Q11Service checkUsername should return false for UfUK" time="0.015">
+    <testcase classname="Q11 Q11Service checkUsername should return false for UfUK" name="Q11 Q11Service checkUsername should return false for UfUK" time="0.016">
     </testcase>
   </testsuite>
-  <testsuite name="Q12" errors="0" failures="0" skipped="0" timestamp="2022-02-04T10:09:20" time="1.81" tests="12">
-    <testcase classname="Q12 Q12Component should create" name="Q12 Q12Component should create" time="0.085">
+  <testsuite name="Q8" errors="0" failures="0" skipped="0" timestamp="2022-02-04T14:39:43" time="7.013" tests="8">
+    <testcase classname="Q8 Q8Component should create" name="Q8 Q8Component should create" time="0.129">
+    </testcase>
+    <testcase classname="Q8 Q8Component should div background color activated as red parameter after mouseenter" name="Q8 Q8Component should div background color activated as red parameter after mouseenter" time="0.038">
+    </testcase>
+    <testcase classname="Q8 Q8Component should div background color activated as green parameter after mouseenter" name="Q8 Q8Component should div background color activated as green parameter after mouseenter" time="0.069">
+    </testcase>
+    <testcase classname="Q8 Q8Component should div background color activated as yellow parameter after mouseenter" name="Q8 Q8Component should div background color activated as yellow parameter after mouseenter" time="0.044">
+    </testcase>
+    <testcase classname="Q8 Q8HighlightDirective should change the background color as red paramater" name="Q8 Q8HighlightDirective should change the background color as red paramater" time="0.043">
+    </testcase>
+    <testcase classname="Q8 Q8HighlightDirective should change the background color as green paramater" name="Q8 Q8HighlightDirective should change the background color as green paramater" time="0.03">
+    </testcase>
+    <testcase classname="Q8 Q8HighlightDirective should change the background color as yellow paramater" name="Q8 Q8HighlightDirective should change the background color as yellow paramater" time="0.025">
+    </testcase>
+    <testcase classname="Q8 Q8HighlightDirective should reset the background color on mouseleave" name="Q8 Q8HighlightDirective should reset the background color on mouseleave" time="0.012">
+    </testcase>
+  </testsuite>
+  <testsuite name="Q12" errors="0" failures="0" skipped="0" timestamp="2022-02-04T14:39:50" time="0.973" tests="12">
+    <testcase classname="Q12 Q12Component should create" name="Q12 Q12Component should create" time="0.056">
     </testcase>
     <testcase classname="Q12 Q12Component onShuffle should make the child method call" name="Q12 Q12Component onShuffle should make the child method call" time="0.033">
     </testcase>
-    <testcase classname="Q12 Q12ChildComponent should create" name="Q12 Q12ChildComponent should create" time="0.025">
+    <testcase classname="Q12 Q12ChildComponent should create" name="Q12 Q12ChildComponent should create" time="0.038">
     </testcase>
-    <testcase classname="Q12 Q12ChildComponent should selected color undefined in the beginning" name="Q12 Q12ChildComponent should selected color undefined in the beginning" time="0.01">
+    <testcase classname="Q12 Q12ChildComponent should selected color undefined in the beginning" name="Q12 Q12ChildComponent should selected color undefined in the beginning" time="0.031">
     </testcase>
-    <testcase classname="Q12 Q12ChildComponent should selected color to be defined after setRandomColor method" name="Q12 Q12ChildComponent should selected color to be defined after setRandomColor method" time="0.015">
+    <testcase classname="Q12 Q12ChildComponent should selected color to be defined after setRandomColor method" name="Q12 Q12ChildComponent should selected color to be defined after setRandomColor method" time="0.051">
     </testcase>
-    <testcase classname="Q12 Q12ChildComponent HostBinding should host element set background color as red variable" name="Q12 Q12ChildComponent HostBinding should host element set background color as red variable" time="0.02">
+    <testcase classname="Q12 Q12ChildComponent HostBinding should host element set background color as red variable" name="Q12 Q12ChildComponent HostBinding should host element set background color as red variable" time="0.018">
     </testcase>
-    <testcase classname="Q12 Q12ChildComponent HostBinding should host element set background color as green variable" name="Q12 Q12ChildComponent HostBinding should host element set background color as green variable" time="0.014">
+    <testcase classname="Q12 Q12ChildComponent HostBinding should host element set background color as green variable" name="Q12 Q12ChildComponent HostBinding should host element set background color as green variable" time="0.031">
     </testcase>
-    <testcase classname="Q12 Q12ChildComponent HostBinding should host element set background color as blue variable" name="Q12 Q12ChildComponent HostBinding should host element set background color as blue variable" time="0.016">
+    <testcase classname="Q12 Q12ChildComponent HostBinding should host element set background color as blue variable" name="Q12 Q12ChildComponent HostBinding should host element set background color as blue variable" time="0.012">
     </testcase>
-    <testcase classname="Q12 Q12ChildComponent HostBinding should host element set background color as black variable" name="Q12 Q12ChildComponent HostBinding should host element set background color as black variable" time="0.011">
+    <testcase classname="Q12 Q12ChildComponent HostBinding should host element set background color as black variable" name="Q12 Q12ChildComponent HostBinding should host element set background color as black variable" time="0.018">
     </testcase>
-    <testcase classname="Q12 Q12ChildComponent HostBinding should host element set background color as orange variable" name="Q12 Q12ChildComponent HostBinding should host element set background color as orange variable" time="0.018">
+    <testcase classname="Q12 Q12ChildComponent HostBinding should host element set background color as orange variable" name="Q12 Q12ChildComponent HostBinding should host element set background color as orange variable" time="0.015">
     </testcase>
-    <testcase classname="Q12 Q12ChildComponent HostBinding should host element set background color as yellow variable" name="Q12 Q12ChildComponent HostBinding should host element set background color as yellow variable" time="0.016">
+    <testcase classname="Q12 Q12ChildComponent HostBinding should host element set background color as yellow variable" name="Q12 Q12ChildComponent HostBinding should host element set background color as yellow variable" time="0.019">
     </testcase>
-    <testcase classname="Q12 Q12ChildComponent HostBinding should host element set background color as purple variable" name="Q12 Q12ChildComponent HostBinding should host element set background color as purple variable" time="0.016">
+    <testcase classname="Q12 Q12ChildComponent HostBinding should host element set background color as purple variable" name="Q12 Q12ChildComponent HostBinding should host element set background color as purple variable" time="0.013">
     </testcase>
   </testsuite>
-  <testsuite name="Q2Component" errors="0" failures="0" skipped="0" timestamp="2022-02-04T10:09:20" time="1.663" tests="2">
-    <testcase classname="Q2Component should create" name="Q2Component should create" time="0.061">
+  <testsuite name="Q10" errors="0" failures="0" skipped="0" timestamp="2022-02-04T14:39:43" time="8.296" tests="3">
+    <testcase classname="Q10 should create" name="Q10 should create" time="0.132">
     </testcase>
-    <testcase classname="Q2Component search should search text bind into p html element" name="Q2Component search should search text bind into p html element" time="0.027">
+    <testcase classname="Q10 should empty p tag exist before http call" name="Q10 should empty p tag exist before http call" time="0.02">
+    </testcase>
+    <testcase classname="Q10 onShuffle should make the call correctly then p tag text contains http response" name="Q10 onShuffle should make the call correctly then p tag text contains http response" time="0.034">
+    </testcase>
+  </testsuite>
+  <testsuite name="Q6" errors="0" failures="0" skipped="0" timestamp="2022-02-04T14:39:43" time="8.375" tests="5">
+    <testcase classname="Q6 should create" name="Q6 should create" time="0.172">
+    </testcase>
+    <testcase classname="Q6 should button has to be disabled if name input is empty" name="Q6 should button has to be disabled if name input is empty" time="0.027">
+    </testcase>
+    <testcase classname="Q6 should button not to be disabled if name input is not empty" name="Q6 should button not to be disabled if name input is not empty" time="0.023">
+    </testcase>
+    <testcase classname="Q6 onSubmit should p tag not exist until form register completed" name="Q6 onSubmit should p tag not exist until form register completed" time="0.024">
+    </testcase>
+    <testcase classname="Q6 onSubmit should p tag contains the name has been submitted from register form" name="Q6 onSubmit should p tag contains the name has been submitted from register form" time="0.035">
+    </testcase>
+  </testsuite>
+  <testsuite name="Q3" errors="0" failures="0" skipped="0" timestamp="2022-02-04T14:39:43" time="8.382" tests="8">
+    <testcase classname="Q3 should create" name="Q3 should create" time="0.169">
+    </testcase>
+    <testcase classname="Q3 search should search text bind into p html element" name="Q3 search should search text bind into p html element" time="0.031">
+    </testcase>
+    <testcase classname="Q3 fruits should return filtered Banana from the list regarding the search value" name="Q3 fruits should return filtered Banana from the list regarding the search value" time="0.022">
+    </testcase>
+    <testcase classname="Q3 fruits should return filtered Apple from the list regarding the search value" name="Q3 fruits should return filtered Apple from the list regarding the search value" time="0.014">
+    </testcase>
+    <testcase classname="Q3 fruits should return filtered Watermelon from the list regarding the search value" name="Q3 fruits should return filtered Watermelon from the list regarding the search value" time="0.03">
+    </testcase>
+    <testcase classname="Q3 fruits should return filtered Mango from the list regarding the search value" name="Q3 fruits should return filtered Mango from the list regarding the search value" time="0.028">
+    </testcase>
+    <testcase classname="Q3 fruits should li elements counter equals to filtered fruit list if fruits.length &gt; 0" name="Q3 fruits should li elements counter equals to filtered fruit list if fruits.length &gt; 0" time="0.016">
+    </testcase>
+    <testcase classname="Q3 fruits should li element show emptyValue text if fruits.length === 0" name="Q3 fruits should li element show emptyValue text if fruits.length === 0" time="0.017">
+    </testcase>
+  </testsuite>
+  <testsuite name="Q1" errors="0" failures="0" skipped="0" timestamp="2022-02-04T14:39:43" time="8.412" tests="3">
+    <testcase classname="Q1 should create" name="Q1 should create" time="0.069">
+    </testcase>
+    <testcase classname="Q1 setCounter should increase the counter" name="Q1 setCounter should increase the counter" time="0.02">
+    </testcase>
+    <testcase classname="Q1 setCounter should decrease the counter" name="Q1 setCounter should decrease the counter" time="0.027">
+    </testcase>
+  </testsuite>
+  <testsuite name="Q2" errors="0" failures="0" skipped="0" timestamp="2022-02-04T14:39:50" time="2.124" tests="2">
+    <testcase classname="Q2 should create" name="Q2 should create" time="0.043">
+    </testcase>
+    <testcase classname="Q2 search should search text bind into p html element" name="Q2 search should search text bind into p html element" time="0.025">
+    </testcase>
+  </testsuite>
+  <testsuite name="Q13" errors="0" failures="0" skipped="0" timestamp="2022-02-04T14:39:50" time="2.539" tests="9">
+    <testcase classname="Q13 should create" name="Q13 should create" time="0.073">
+    </testcase>
+    <testcase classname="Q13 should set the correct options on multi select" name="Q13 should set the correct options on multi select" time="0.037">
+    </testcase>
+    <testcase classname="Q13 should set the correct value on input" name="Q13 should set the correct value on input" time="0.038">
+    </testcase>
+    <testcase classname="Q13 should button has to be disabled if form is not valid yet only input filled" name="Q13 should button has to be disabled if form is not valid yet only input filled" time="0.021">
+    </testcase>
+    <testcase classname="Q13 should button has to be disabled if form is not valid yet only select filled" name="Q13 should button has to be disabled if form is not valid yet only select filled" time="0.029">
+    </testcase>
+    <testcase classname="Q13 misMatch should return misMatch true for visa and 123" name="Q13 misMatch should return misMatch true for visa and 123" time="0.031">
+    </testcase>
+    <testcase classname="Q13 misMatch should return misMatch undefined for visa and 453" name="Q13 misMatch should return misMatch undefined for visa and 453" time="0.03">
+    </testcase>
+    <testcase classname="Q13 misMatch should return misMatch true for mastercard and 123" name="Q13 misMatch should return misMatch true for mastercard and 123" time="0.032">
+    </testcase>
+    <testcase classname="Q13 misMatch should return misMatch undefined for mastercard and 234" name="Q13 misMatch should return misMatch undefined for mastercard and 234" time="0.03">
     </testcase>
   </testsuite>
 </testsuites>

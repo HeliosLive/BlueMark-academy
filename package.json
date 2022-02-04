@@ -15,7 +15,19 @@
     "test:ci": "jest --coverage --reporters=jest-junit --reporters=default",
     "postinstall": "ngcc",
     "lint": "ng lint",
-    "q11": "jest q11.component.spec.ts -t 'Q11'"
+    "q1": "jest q1.component.spec.ts -t 'Q1'",
+    "q2": "jest q2.component.spec.ts -t 'Q2'",
+    "q3": "jest q3.component.spec.ts -t 'Q3'",
+    "q4": "jest q4.component.spec.ts -t 'Q4'",
+    "q5": "jest q5.component.spec.ts -t 'Q5'",
+    "q6": "jest q6.component.spec.ts -t 'Q6'",
+    "q7": "jest q7.component.spec.ts -t 'Q7'",
+    "q8": "jest q8.component.spec.ts -t 'Q8'",
+    "q9": "jest q9.component.spec.ts -t 'Q9'",
+    "q10": "jest q10.component.spec.ts -t 'Q10'",
+    "q11": "jest q11.component.spec.ts -t 'Q11'",
+    "q12": "jest q12.component.spec.ts -t 'Q12'",
+    "q13": "jest q13.component.spec.ts -t 'Q13'"
   },
   "private": true,
   "dependencies": {
