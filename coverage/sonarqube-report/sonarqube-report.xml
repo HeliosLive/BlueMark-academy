@@ -1,15 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q10\q10.component.spec.ts">
+        <testCase name="Q10 should create" duration="114"/>
+        <testCase name="Q10 should empty p tag exist before http call" duration="24"/>
+        <testCase name="Q10 onShuffle should make the call correctly then p tag text contains http response" duration="56"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q1\q1.component.spec.ts">
+        <testCase name="Q1 should create" duration="118"/>
+        <testCase name="Q1 setCounter should increase the counter" duration="50"/>
+        <testCase name="Q1 setCounter should decrease the counter" duration="57"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q8\q8.component.spec.ts">
+        <testCase name="Q8 Q8Component should create" duration="131"/>
+        <testCase name="Q8 Q8Component should div background color activated as red parameter after mouseenter" duration="29"/>
+        <testCase name="Q8 Q8Component should div background color activated as green parameter after mouseenter" duration="22"/>
+        <testCase name="Q8 Q8Component should div background color activated as yellow parameter after mouseenter" duration="24"/>
+        <testCase name="Q8 Q8HighlightDirective should change the background color as red paramater" duration="37"/>
+        <testCase name="Q8 Q8HighlightDirective should change the background color as green paramater" duration="18"/>
+        <testCase name="Q8 Q8HighlightDirective should change the background color as yellow paramater" duration="21"/>
+        <testCase name="Q8 Q8HighlightDirective should reset the background color on mouseleave" duration="28"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q5\q5.component.spec.ts">
+        <testCase name="Q5 Q5Component should create" duration="168"/>
+        <testCase name="Q5 Q5Component onSubmit should set the name variable what has been sent to the method as a param" duration="51"/>
+        <testCase name="Q5 Q5Component onSubmit should p tag repeats as value" duration="34"/>
+        <testCase name="Q5 Q5ChildComponent should create" duration="60"/>
+        <testCase name="Q5 Q5ChildComponent should input value bind to value variable" duration="34"/>
+        <testCase name="Q5 Q5ChildComponent should button emits the input value through submit output" duration="38"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\app.component.spec.ts">
+        <testCase name="AppComponent should create" duration="75"/>
+        <testCase name="AppComponent should have as title &apos;BlueMark-academy&apos;" duration="29"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q7\q7.component.spec.ts">
+        <testCase name="Q7 Q7Component should create" duration="170"/>
+        <testCase name="Q7 Q7Component should input value emits correctly" duration="47"/>
+        <testCase name="Q7 Q7Component should p tag contains what has been typed on input" duration="41"/>
+        <testCase name="Q7 CoolCasePipe should create an instance" duration="8"/>
+        <testCase name="Q7 CoolCasePipe transform should return the coolest text format" duration="5"/>
+        <testCase name="Q7 CoolCasePipe transform should return an empty string if parameter is not a valid string" duration="5"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q4\q4.component.spec.ts">
+        <testCase name="Q4 Q4Component should create" duration="183"/>
+        <testCase name="Q4 Q4Component addItem should increase the counter after clicking the button" duration="41"/>
+        <testCase name="Q4 Q4Component addItem should child component temp not exist in the beginning" duration="23"/>
+        <testCase name="Q4 Q4Component addItem should child component temp exist after clicking the button" duration="32"/>
+        <testCase name="Q4 Q4ChildComponent should create" duration="39"/>
+        <testCase name="Q4 Q4ChildComponent should p tag repeats as value" duration="25"/>
+        <testCase name="Q4 Q4ChildComponent should p tag text contains the for loop index" duration="28"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q6\q6.component.spec.ts">
+        <testCase name="Q6 should create" duration="202"/>
+        <testCase name="Q6 should button has to be disabled if name input is empty" duration="33"/>
+        <testCase name="Q6 should button not to be disabled if name input is not empty" duration="54"/>
+        <testCase name="Q6 onSubmit should p tag not exist until form register completed" duration="32"/>
+        <testCase name="Q6 onSubmit should p tag contains the name has been submitted from register form" duration="42"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q11\q11.component.spec.ts">
+        <testCase name="Q11 Q11Component should create" duration="141"/>
+        <testCase name="Q11 Q11Component should p element exist with required text if form required error exist" duration="139"/>
+        <testCase name="Q11 Q11Component should p element exist with usernameExist text if form usernameExist error exist" duration="43"/>
+        <testCase name="Q11 Q11Component should p element exist with usernameAvailable text if form usernameAvailable exist" duration="51"/>
+        <testCase name="Q11 Q11Service should create" duration="6"/>
+        <testCase name="Q11 Q11Service checkUsername should return true for ahMet" duration="9"/>
+        <testCase name="Q11 Q11Service checkUsername should return true for JASPER" duration="16"/>
+        <testCase name="Q11 Q11Service checkUsername should return true for marta" duration="14"/>
+        <testCase name="Q11 Q11Service checkUsername should return false for Jason" duration="14"/>
+        <testCase name="Q11 Q11Service checkUsername should return false for RaMazaN" duration="14"/>
+        <testCase name="Q11 Q11Service checkUsername should return false for UfUK" duration="17"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q9\q9.component.spec.ts">
+        <testCase name="Q9 Q9Component should create" duration="141"/>
+        <testCase name="Q9 Q9Component onClick should color variable set as red parameter after button click" duration="49"/>
+        <testCase name="Q9 Q9Component onClick should color variable set as green parameter after button click" duration="32"/>
+        <testCase name="Q9 Q9Component onClick should color variable set as blue parameter after button click" duration="21"/>
+        <testCase name="Q9 Q9ChildComponent should create" duration="26"/>
+        <testCase name="Q9 Q9ChildComponent should host class set as red input" duration="15"/>
+        <testCase name="Q9 Q9ChildComponent should host class set as green input" duration="13"/>
+        <testCase name="Q9 Q9ChildComponent should host class set as blue input" duration="18"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q3\q3.component.spec.ts">
+        <testCase name="Q3 should create" duration="130"/>
+        <testCase name="Q3 search should search text bind into p html element" duration="52"/>
+        <testCase name="Q3 fruits should return filtered Banana from the list regarding the search value" duration="31"/>
+        <testCase name="Q3 fruits should return filtered Apple from the list regarding the search value" duration="28"/>
+        <testCase name="Q3 fruits should return filtered Watermelon from the list regarding the search value" duration="28"/>
+        <testCase name="Q3 fruits should return filtered Mango from the list regarding the search value" duration="25"/>
+        <testCase name="Q3 fruits should li elements counter equals to filtered fruit list if fruits.length &gt; 0" duration="32"/>
+        <testCase name="Q3 fruits should li element show emptyValue text if fruits.length === 0" duration="35"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q2\q2.component.spec.ts">
+        <testCase name="Q2 should create" duration="71"/>
+        <testCase name="Q2 search should search text bind into p html element" duration="31"/>
+    </file>
     <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q14\q14.component.spec.ts">
-        <testCase name="Q14 should create" duration="75"/>
-        <testCase name="Q14 onUpload should p element not exist until button clicked" duration="22"/>
-        <testCase name="Q14 onUpload should onUpload method called after button clicked" duration="21"/>
-        <testCase name="Q14 onUpload should button not to be disabled before button clicked" duration="13"/>
-        <testCase name="Q14 onUpload should button disabled after button clicked" duration="13"/>
-        <testCase name="Q14 onUpload should p element have loading text after button clicked before completed" duration="31"/>
-        <testCase name="Q14 onUpload should p element have success text after button clicked after completed" duration="47"/>
-        <testCase name="Q14 onUpload should counter$ to be defined" duration="44"/>
-        <testCase name="Q14 onUpload should progress element value display correctly before it starts" duration="15"/>
-        <testCase name="Q14 onUpload should progress element value display correctly after its completed" duration="16"/>
+        <testCase name="Q14 should create" duration="79"/>
+        <testCase name="Q14 onUpload should p element not exist until button clicked" duration="21"/>
+        <testCase name="Q14 onUpload should onUpload method called after button clicked" duration="22"/>
+        <testCase name="Q14 onUpload should button not to be disabled before button clicked" duration="29"/>
+        <testCase name="Q14 onUpload should button disabled after button clicked" duration="29"/>
+        <testCase name="Q14 onUpload should p element have loading text after button clicked before completed" duration="36"/>
+        <testCase name="Q14 onUpload should p element have success text after button clicked after completed" duration="29"/>
+        <testCase name="Q14 onUpload should counter$ to be defined" duration="30"/>
+        <testCase name="Q14 onUpload should progress element value display correctly before it starts" duration="32"/>
+        <testCase name="Q14 onUpload should progress element value display correctly after its completed" duration="26"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q12\q12.component.spec.ts">
+        <testCase name="Q12 Q12Component should create" duration="54"/>
+        <testCase name="Q12 Q12Component onShuffle should make the child method call" duration="19"/>
+        <testCase name="Q12 Q12ChildComponent should create" duration="27"/>
+        <testCase name="Q12 Q12ChildComponent should selected color undefined in the beginning" duration="13"/>
+        <testCase name="Q12 Q12ChildComponent should selected color to be defined after setRandomColor method" duration="13"/>
+        <testCase name="Q12 Q12ChildComponent HostBinding should host element set background color as red variable" duration="16"/>
+        <testCase name="Q12 Q12ChildComponent HostBinding should host element set background color as green variable" duration="10"/>
+        <testCase name="Q12 Q12ChildComponent HostBinding should host element set background color as blue variable" duration="19"/>
+        <testCase name="Q12 Q12ChildComponent HostBinding should host element set background color as black variable" duration="16"/>
+        <testCase name="Q12 Q12ChildComponent HostBinding should host element set background color as orange variable" duration="17"/>
+        <testCase name="Q12 Q12ChildComponent HostBinding should host element set background color as yellow variable" duration="15"/>
+        <testCase name="Q12 Q12ChildComponent HostBinding should host element set background color as purple variable" duration="17"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q13\q13.component.spec.ts">
+        <testCase name="Q13 should create" duration="84"/>
+        <testCase name="Q13 should set the correct options on multi select" duration="40"/>
+        <testCase name="Q13 should set the correct value on input" duration="31"/>
+        <testCase name="Q13 should button has to be disabled if form is not valid yet only input filled" duration="28"/>
+        <testCase name="Q13 should button has to be disabled if form is not valid yet only select filled" duration="30"/>
+        <testCase name="Q13 misMatch should return misMatch true for visa and 123" duration="46"/>
+        <testCase name="Q13 misMatch should return misMatch undefined for visa and 453" duration="46"/>
+        <testCase name="Q13 misMatch should return misMatch true for mastercard and 123" duration="48"/>
+        <testCase name="Q13 misMatch should return misMatch undefined for mastercard and 234" duration="46"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q15\q15.component.spec.ts">
+        <testCase name="Q15 Q15Component should create" duration="30"/>
+        <testCase name="Q15 Q15Component should users not to be defined until button clicked" duration="20"/>
+        <testCase name="Q15 Q15Component should users to be defined after button clicked" duration="19"/>
+        <testCase name="Q15 Q15Component getAllUsers should method called after button clicked" duration="9"/>
+        <testCase name="Q15 Q15Component getAllUsers should method called after button clicked" duration="20"/>
+        <testCase name="Q15 Q15Component getAllUsers should li element not exist until button clicked" duration="11"/>
+        <testCase name="Q15 Q15Component getAllUsers should li element exist after button clicked" duration="8"/>
+        <testCase name="Q15 Q15Service should create" duration="3"/>
+        <testCase name="Q15 Q15Service getUsers should return users from constant user list data" duration="2"/>
     </file>
 </testExecutions>

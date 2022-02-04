@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1644008810767" clover="3.2.0">
-  <project timestamp="1644008810767" name="All files">
-    <metrics statements="130" coveredstatements="130" conditionals="111" coveredconditionals="92" methods="43" coveredmethods="43" elements="284" coveredelements="265" complexity="0" loc="130" ncloc="130" packages="15" files="15" classes="15"/>
+<coverage generated="1644011868929" clover="3.2.0">
+  <project timestamp="1644011868929" name="All files">
+    <metrics statements="140" coveredstatements="140" conditionals="111" coveredconditionals="92" methods="47" coveredmethods="47" elements="298" coveredelements="279" complexity="0" loc="140" ncloc="140" packages="16" files="16" classes="16"/>
     <package name="app">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="app.component.ts" path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\app.component.ts">
@@ -111,18 +111,34 @@
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
-        <line num="14" count="9" type="stmt"/>
-        <line num="15" count="9" type="stmt"/>
-        <line num="16" count="9" type="stmt"/>
-        <line num="17" count="9" type="stmt"/>
-        <line num="18" count="9" type="stmt"/>
-        <line num="19" count="9" type="stmt"/>
-        <line num="22" count="6" type="stmt"/>
-        <line num="23" count="6" type="stmt"/>
-        <line num="24" count="15" type="stmt"/>
-        <line num="26" count="12" type="cond" truecount="2" falsecount="0"/>
-        <line num="27" count="3" type="stmt"/>
-        <line num="29" count="9" type="stmt"/>
+        <line num="14" count="10" type="stmt"/>
+        <line num="15" count="10" type="stmt"/>
+        <line num="16" count="10" type="stmt"/>
+        <line num="17" count="10" type="stmt"/>
+        <line num="18" count="10" type="stmt"/>
+        <line num="19" count="10" type="stmt"/>
+        <line num="22" count="7" type="stmt"/>
+        <line num="23" count="7" type="stmt"/>
+        <line num="24" count="25" type="stmt"/>
+        <line num="26" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="5" type="stmt"/>
+        <line num="29" count="15" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.q15">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="q15.component.ts" path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q15\q15.component.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="7" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="9" type="stmt"/>
+        <line num="36" count="5" type="stmt"/>
       </file>
     </package>
     <package name="app.q2">
