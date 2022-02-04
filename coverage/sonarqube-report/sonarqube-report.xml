@@ -1,16 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\app.component.spec.ts">
+        <testCase name="AppComponent should create" duration="103"/>
+        <testCase name="AppComponent should have as title &apos;BlueMark-academy&apos;" duration="39"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q1\q1.component.spec.ts">
+        <testCase name="Q1Component should create" duration="142"/>
+        <testCase name="Q1Component setCounter should increase the counter" duration="100"/>
+        <testCase name="Q1Component setCounter should decrease the counter" duration="23"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q4\q4.component.spec.ts">
+        <testCase name="Q4 Q4Component should create" duration="187"/>
+        <testCase name="Q4 Q4Component addItem should increase the counter after clicking the button" duration="38"/>
+        <testCase name="Q4 Q4Component addItem should child component temp not exist in the beginning" duration="27"/>
+        <testCase name="Q4 Q4Component addItem should child component temp exist after clicking the button" duration="29"/>
+        <testCase name="Q4 Q4ChildComponent should create" duration="51"/>
+        <testCase name="Q4 Q4ChildComponent should p tag repeats as value" duration="70"/>
+        <testCase name="Q4 Q4ChildComponent should p tag text contains the for loop index" duration="75"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q10\q10.component.spec.ts">
+        <testCase name="Q10Component should create" duration="190"/>
+        <testCase name="Q10Component should empty p tag exist before http call" duration="81"/>
+        <testCase name="Q10Component onShuffle should make the call correctly then p tag text contains http response" duration="54"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q8\q8.component.spec.ts">
+        <testCase name="Q8 Q8Component should create" duration="143"/>
+        <testCase name="Q8 Q8Component should div background color activated as red parameter after mouseenter" duration="64"/>
+        <testCase name="Q8 Q8Component should div background color activated as green parameter after mouseenter" duration="83"/>
+        <testCase name="Q8 Q8Component should div background color activated as yellow parameter after mouseenter" duration="73"/>
+        <testCase name="Q8 Q8HighlightDirective should change the background color as red paramater" duration="62"/>
+        <testCase name="Q8 Q8HighlightDirective should change the background color as green paramater" duration="36"/>
+        <testCase name="Q8 Q8HighlightDirective should change the background color as yellow paramater" duration="30"/>
+        <testCase name="Q8 Q8HighlightDirective should reset the background color on mouseleave" duration="26"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q9\q9.component.spec.ts">
+        <testCase name="Q9 Q9Component should create" duration="205"/>
+        <testCase name="Q9 Q9Component onClick should color variable set as red parameter after button click" duration="143"/>
+        <testCase name="Q9 Q9Component onClick should color variable set as green parameter after button click" duration="43"/>
+        <testCase name="Q9 Q9Component onClick should color variable set as blue parameter after button click" duration="21"/>
+        <testCase name="Q9 Q9ChildComponent should create" duration="17"/>
+        <testCase name="Q9 Q9ChildComponent should host class set as red input" duration="17"/>
+        <testCase name="Q9 Q9ChildComponent should host class set as green input" duration="17"/>
+        <testCase name="Q9 Q9ChildComponent should host class set as blue input" duration="13"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q7\q7.component.spec.ts">
+        <testCase name="Q7 Q7Component should create" duration="211"/>
+        <testCase name="Q7 Q7Component should input value emits correctly" duration="49"/>
+        <testCase name="Q7 Q7Component should p tag contains what has been typed on input" duration="37"/>
+        <testCase name="Q7 CoolCasePipe should create an instance" duration="19"/>
+        <testCase name="Q7 CoolCasePipe transform should return the coolest text format" duration="9"/>
+        <testCase name="Q7 CoolCasePipe transform should return an empty string if parameter is not a valid string" duration="9"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q6\q6.component.spec.ts">
+        <testCase name="Q6Component should create" duration="209"/>
+        <testCase name="Q6Component should button has to be disabled if name input is empty" duration="58"/>
+        <testCase name="Q6Component should button not to be disabled if name input is not empty" duration="74"/>
+        <testCase name="Q6Component onSubmit should p tag not exist until form register completed" duration="52"/>
+        <testCase name="Q6Component onSubmit should p tag contains the name has been submitted from register form" duration="91"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q5\q5.component.spec.ts">
+        <testCase name="Q5 Q5Component should create" duration="166"/>
+        <testCase name="Q5 Q5Component onSubmit should set the name variable what has been sent to the method as a param" duration="32"/>
+        <testCase name="Q5 Q5Component onSubmit should p tag repeats as value" duration="38"/>
+        <testCase name="Q5 Q5ChildComponent should create" duration="147"/>
+        <testCase name="Q5 Q5ChildComponent should input value bind to value variable" duration="48"/>
+        <testCase name="Q5 Q5ChildComponent should button emits the input value through submit output" duration="31"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q3\q3.component.spec.ts">
+        <testCase name="Q3Component should create" duration="232"/>
+        <testCase name="Q3Component search should search text bind into p html element" duration="101"/>
+        <testCase name="Q3Component fruits should return filtered Banana from the list regarding the search value" duration="38"/>
+        <testCase name="Q3Component fruits should return filtered Apple from the list regarding the search value" duration="30"/>
+        <testCase name="Q3Component fruits should return filtered Watermelon from the list regarding the search value" duration="35"/>
+        <testCase name="Q3Component fruits should return filtered Mango from the list regarding the search value" duration="23"/>
+        <testCase name="Q3Component fruits should li elements counter equals to filtered fruit list if fruits.length &gt; 0" duration="28"/>
+        <testCase name="Q3Component fruits should li element show emptyValue text if fruits.length === 0" duration="35"/>
+    </file>
     <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q11\q11.component.spec.ts">
-        <testCase name="Q11 Q11Component should create" duration="64"/>
-        <testCase name="Q11 Q11Component should p element exist with required text if form required error exist" duration="22"/>
-        <testCase name="Q11 Q11Component should p element exist with usernameExist text if form usernameExist error exist" duration="34"/>
-        <testCase name="Q11 Q11Component should p element exist with usernameAvailable text if form usernameAvailable exist" duration="29"/>
+        <testCase name="Q11 Q11Component should create" duration="149"/>
+        <testCase name="Q11 Q11Component should p element exist with required text if form required error exist" duration="46"/>
+        <testCase name="Q11 Q11Component should p element exist with usernameExist text if form usernameExist error exist" duration="61"/>
+        <testCase name="Q11 Q11Component should p element exist with usernameAvailable text if form usernameAvailable exist" duration="54"/>
         <testCase name="Q11 Q11Service should create" duration="4"/>
-        <testCase name="Q11 Q11Service checkUsername should return true for ahMet" duration="11"/>
-        <testCase name="Q11 Q11Service checkUsername should return true for JASPER" duration="14"/>
+        <testCase name="Q11 Q11Service checkUsername should return true for ahMet" duration="15"/>
+        <testCase name="Q11 Q11Service checkUsername should return true for JASPER" duration="16"/>
         <testCase name="Q11 Q11Service checkUsername should return true for marta" duration="15"/>
-        <testCase name="Q11 Q11Service checkUsername should return false for Jason" duration="15"/>
-        <testCase name="Q11 Q11Service checkUsername should return false for RaMazaN" duration="13"/>
-        <testCase name="Q11 Q11Service checkUsername should return false for UfUK" duration="14"/>
+        <testCase name="Q11 Q11Service checkUsername should return false for Jason" duration="16"/>
+        <testCase name="Q11 Q11Service checkUsername should return false for RaMazaN" duration="15"/>
+        <testCase name="Q11 Q11Service checkUsername should return false for UfUK" duration="15"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q12\q12.component.spec.ts">
+        <testCase name="Q12 Q12Component should create" duration="85"/>
+        <testCase name="Q12 Q12Component onShuffle should make the child method call" duration="33"/>
+        <testCase name="Q12 Q12ChildComponent should create" duration="25"/>
+        <testCase name="Q12 Q12ChildComponent should selected color undefined in the beginning" duration="10"/>
+        <testCase name="Q12 Q12ChildComponent should selected color to be defined after setRandomColor method" duration="15"/>
+        <testCase name="Q12 Q12ChildComponent HostBinding should host element set background color as red variable" duration="20"/>
+        <testCase name="Q12 Q12ChildComponent HostBinding should host element set background color as green variable" duration="14"/>
+        <testCase name="Q12 Q12ChildComponent HostBinding should host element set background color as blue variable" duration="16"/>
+        <testCase name="Q12 Q12ChildComponent HostBinding should host element set background color as black variable" duration="11"/>
+        <testCase name="Q12 Q12ChildComponent HostBinding should host element set background color as orange variable" duration="18"/>
+        <testCase name="Q12 Q12ChildComponent HostBinding should host element set background color as yellow variable" duration="16"/>
+        <testCase name="Q12 Q12ChildComponent HostBinding should host element set background color as purple variable" duration="16"/>
+    </file>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q2\q2.component.spec.ts">
+        <testCase name="Q2Component should create" duration="61"/>
+        <testCase name="Q2Component search should search text bind into p html element" duration="27"/>
     </file>
 </testExecutions>
