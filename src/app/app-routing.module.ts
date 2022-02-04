@@ -58,6 +58,10 @@ const routes: Routes = [
     path: 'q14',
     loadChildren: () => import('./q14/q14.module').then((m) => m.Q14Module),
   },
+  {
+    path: 'q15',
+    loadChildren: () => import('./q15/q15.module').then((m) => m.Q15Module),
+  },
   { path: '', redirectTo: '/q1', pathMatch: 'full' },
   { path: '**', redirectTo: '/q1', pathMatch: 'full' },
 ];
