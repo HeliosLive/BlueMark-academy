@@ -1,0 +1,7 @@
+<button [disabled]="started" (click)="onUpload()">upload</button>
+
+<progress [value]="counter$ | async" [max]="estimatedTime"> </progress>
+
+<ng-container *ngIf="started">
+  <p>{{completed ? successText : loadingText}}</p>
+</ng-container>
