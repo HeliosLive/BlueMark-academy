@@ -4,7 +4,7 @@ import { createComponentFactory, Spectator } from '@ngneat/spectator/jest';
 import type { Fruit } from './q3.component';
 import { Q3Component } from './q3.component';
 
-describe('Q3Component', () => {
+describe('Q3', () => {
   let spectator: Spectator<Q3Component>;
   const fruitList: Fruit[] = [
     {
