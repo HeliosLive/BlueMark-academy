@@ -1,0 +1,4 @@
+<form novalidate [formGroup]="registerForm">
+  <app-q17-child formControlName="name"></app-q17-child>
+</form>
+<p>{{ name?.value }}</p>
