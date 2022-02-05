@@ -1,0 +1,12 @@
+<table *ngIf="(store$ | async) as store">
+  <tr>
+    <th>Shoe Name</th>
+    <th>Price</th>
+    <th>Quantity</th>
+  </tr>
+  <tr testId="shoe-row" *ngFor="let item of store">
+    <td>{{item?.shoeName}}</td>
+    <td>{{item?.price}}</td>
+    <td>{{item?.quantity ?? noDataErrorText}}</td>
+  </tr>
+</table>
