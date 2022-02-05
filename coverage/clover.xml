@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1644022263353" clover="3.2.0">
-  <project timestamp="1644022263353" name="All files">
-    <metrics statements="153" coveredstatements="153" conditionals="115" coveredconditionals="96" methods="51" coveredmethods="51" elements="319" coveredelements="300" complexity="0" loc="153" ncloc="153" packages="17" files="17" classes="17"/>
+<coverage generated="1644062333436" clover="3.2.0">
+  <project timestamp="1644062333437" name="All files">
+    <metrics statements="168" coveredstatements="168" conditionals="137" coveredconditionals="113" methods="62" coveredmethods="62" elements="367" coveredelements="343" complexity="0" loc="168" ncloc="168" packages="18" files="18" classes="18"/>
     <package name="app">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="app.component.ts" path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\app.component.ts">
@@ -158,6 +158,27 @@
         <line num="64" count="7" type="stmt"/>
         <line num="65" count="21" type="stmt"/>
         <line num="68" count="35" type="cond" truecount="4" falsecount="0"/>
+      </file>
+    </package>
+    <package name="app.q17">
+      <metrics statements="15" coveredstatements="15" conditionals="22" coveredconditionals="17" methods="11" coveredmethods="11"/>
+      <file name="q17.component.ts" path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q17\q17.component.ts">
+        <metrics statements="15" coveredstatements="15" conditionals="22" coveredconditionals="17" methods="11" coveredmethods="11"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
+        <line num="33" count="32" type="stmt"/>
+        <line num="37" count="4" type="stmt"/>
+        <line num="54" count="4" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="68" count="20" type="stmt"/>
+        <line num="74" count="10" type="stmt"/>
+        <line num="77" count="20" type="stmt"/>
+        <line num="81" count="8" type="cond" truecount="3" falsecount="1"/>
+        <line num="85" count="8" type="cond" truecount="3" falsecount="1"/>
+        <line num="89" count="5" type="cond" truecount="3" falsecount="1"/>
+        <line num="93" count="1" type="cond" truecount="3" falsecount="1"/>
       </file>
     </package>
     <package name="app.q2">
