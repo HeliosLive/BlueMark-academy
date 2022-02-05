@@ -1,0 +1,10 @@
+<div class="buttons">
+  <button testId="small-button" (click)="setSize('small')">Small</button>
+  <button testId="normal-button" (click)="setSize('normal')">Normal</button>
+  <button testId="large-button" (click)="setSize('large')">Large</button>
+  <button testId="hidden-button" (click)="setVisibility('hidden')">Hidden</button>
+  <button testId="visible-button" (click)="setVisibility('visible')">Visible</button>
+</div>
+
+<img [ngClass]="size" [ngStyle]="{'visibility': visibility }"
+  src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular-icon">

@@ -1,6 +1,11 @@
  
 # In this question, we are expecting from you to call the `setRandomColor` in child component from parent component by clicking the button. For the result we would like to see random `background-color` css property each time that related method called.
 
+>Difficulty level : Easy 
+> - Junior developer : ~25mins 
+> - Medior developer : ~15mins 
+> - Senior developer : ~7mins
+
 ### 1. Html
 
 ```html

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1644066751369" clover="3.2.0">
-  <project timestamp="1644066751369" name="All files">
-    <metrics statements="177" coveredstatements="177" conditionals="137" coveredconditionals="113" methods="68" coveredmethods="68" elements="382" coveredelements="358" complexity="0" loc="177" ncloc="177" packages="19" files="19" classes="19"/>
+<coverage generated="1644071933003" clover="3.2.0">
+  <project timestamp="1644071933003" name="All files">
+    <metrics statements="181" coveredstatements="181" conditionals="137" coveredconditionals="113" methods="70" coveredmethods="70" elements="388" coveredelements="364" complexity="0" loc="181" ncloc="181" packages="20" files="20" classes="20"/>
     <package name="app">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="app.component.ts" path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\app.component.ts">
@@ -194,6 +194,16 @@
         <line num="37" count="8" type="stmt"/>
         <line num="40" count="16" type="stmt"/>
         <line num="43" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.q19">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="q19.component.ts" path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q19\q19.component.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="42" count="3" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
       </file>
     </package>
     <package name="app.q2">
