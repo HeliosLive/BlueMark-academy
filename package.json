@@ -31,7 +31,8 @@
     "q14": "jest q14.component.spec.ts -t 'Q14'",
     "q15": "jest q15.component.spec.ts -t 'Q15'",
     "q16": "jest q16.component.spec.ts -t 'Q16'",
-    "q17": "jest q17.component.spec.ts -t 'Q17'"
+    "q17": "jest q17.component.spec.ts -t 'Q17'",
+    "q18": "jest q18.component.spec.ts -t 'Q18'"
   },
   "private": true,
   "dependencies": {
