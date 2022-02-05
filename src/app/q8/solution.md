@@ -1,6 +1,11 @@
  
 # In this question, we are expecting from you to create a highlight directive with the color parameter. Colors are given inside `div` elements as text. `mouseenter` event should set the `background-color` but `mouseleave` event should reset the `background-color`
 
+>Difficulty level : Easy 
+> - Junior developer : ~18mins 
+> - Medior developer : ~9mins 
+> - Senior developer : ~4mins
+
 ### 1. Html
 
 ```html

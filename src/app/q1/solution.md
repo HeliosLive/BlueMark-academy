@@ -1,6 +1,11 @@
  
 # In this question, we are expecting a behaviour from buttons to increase and decrease the current counter value.
 
+>Difficulty level : Easy 
+> - Junior developer : ~5mins 
+> - Medior developer : ~3mins 
+> - Senior developer : ~2mins
+
 ### 1. Html
 
 ```html

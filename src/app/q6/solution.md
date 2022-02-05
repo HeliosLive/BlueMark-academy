@@ -1,6 +1,11 @@
  
 # In this question, we are expecting from you to create an angular reactive form with a required name control. User shouldn't click a submit button until that field is valid. After submitting the form, the `p` tag should appear on the screen with the submitting name value.
 
+>Difficulty level : Easy 
+> - Junior developer : ~25mins 
+> - Medior developer : ~15mins 
+> - Senior developer : ~7mins
+
 ### 1. Html
 
 ```html

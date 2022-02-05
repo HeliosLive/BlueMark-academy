@@ -1,6 +1,11 @@
  
 # In this question, we are expecting from you to trigger `p` element inner text with typing on input element
 
+>Difficulty level : Easy 
+> - Junior developer : ~10mins 
+> - Medior developer : ~6mins 
+> - Senior developer : ~2mins
+
 ### 1. Html
 
 ```html

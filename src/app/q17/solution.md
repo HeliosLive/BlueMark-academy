@@ -1,5 +1,10 @@
  
-# In this question, we are expecting you to connect registerForm with the child component. When the user types something inside the input `p` tag should present that value. Important form controls like `dirty`, `touched` and `disabled` should be accessible between angular form API and child component.
+# In this question, we are expecting you to connect registerForm with the child component. When the user types something inside the input `p` tag should present that value. Important form controls like `dirty`, `touched` and `disabled` should be accessible between **angular form API** and child component.
+
+>Difficulty level : Hard 
+> - Junior developer : ~50mins 
+> - Medior developer : ~15mins 
+> - Senior developer : ~8mins 
 
 ### 1. Html
 

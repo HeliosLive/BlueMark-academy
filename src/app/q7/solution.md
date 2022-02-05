@@ -1,6 +1,11 @@
  
 # In this question, we are expecting from you to write a custom pipe which transform strings regarding the odd and even letter indexes. For example; `computer` should be like `cOmPuTeR`. Use input the trigger value variable and show the transformed text inside `p` element
 
+>Difficulty level : Easy 
+> - Junior developer : ~15mins 
+> - Medior developer : ~8mins 
+> - Senior developer : ~3mins
+
 ### 1. Html
 
 ```html

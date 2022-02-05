@@ -1,6 +1,11 @@
  
 # In this question, we are expecting you to list the users after clicking the button. Pass the user list from the related service to component and consume it then present the users with `li` tag.
 
+>Difficulty level : Easy 
+> - Junior developer : ~15mins 
+> - Medior developer : ~6mins 
+> - Senior developer : ~3mins
+
 ### 1. Html
 
 ```html

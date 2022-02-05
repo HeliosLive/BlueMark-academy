@@ -1,6 +1,11 @@
  
 # In this question, we are expecting from you to create a very simple card payment form. Including cart type selection, card number input, regarding the form valid a submit button and most importantly a `p` tag in order to show misMatch error. Beside required validations we would like to see card number and card type match validation.
 
+>Difficulty level : Medium
+> - Junior developer : ~35mins 
+> - Medior developer : ~25mins 
+> - Senior developer : ~10mins
+
 ### 1. Html
 
 ```html

@@ -1,6 +1,11 @@
  
 # In this question, we are expecting from you to change the color variable after button clicks and bind the to the child component which triggers the host and set a specific class.
 
+>Difficulty level : Medium 
+> - Junior developer : ~15mins 
+> - Medior developer : ~8mins 
+> - Senior developer : ~3mins
+
 ### 1. Html
 
 ```html

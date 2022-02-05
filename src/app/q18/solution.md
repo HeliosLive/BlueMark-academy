@@ -1,6 +1,11 @@
  
 # In this question, we are expecting you to fill the cycleHookList string array data with original hook names by order after component created but not destroyed or changed yet.
 
+>Difficulty level : Easy 
+> - Junior developer : ~5mins 
+> - Medior developer : ~2mins 
+> - Senior developer : ~1min 
+
 ### 1. Html
 
 ```html
