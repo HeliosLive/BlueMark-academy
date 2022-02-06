@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
-    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q20\q20.component.spec.ts">
-        <testCase name="Q20 Q20Component should create" duration="78"/>
-        <testCase name="Q20 Q20Component onClick should navigate to detail related route path with given data" duration="31"/>
-        <testCase name="Q20 Q20ChildComponent should create" duration="33"/>
-        <testCase name="Q20 Q20ChildComponent should users equals to router state data" duration="20"/>
-        <testCase name="Q20 Q20ChildComponent should ahmet li element exist with passed users" duration="17"/>
-        <testCase name="Q20 Q20ChildComponent should jasper li element exist with passed users" duration="38"/>
-        <testCase name="Q20 Q20ChildComponent should marta li element exist with passed users" duration="39"/>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q15\q15.component.spec.ts">
+        <testCase name="Q15 Q15Component should create" duration="82"/>
+        <testCase name="Q15 Q15Component should users not to be defined until button clicked" duration="24"/>
+        <testCase name="Q15 Q15Component should users to be defined after button clicked" duration="33"/>
+        <testCase name="Q15 Q15Component getAllUsers should method called after button clicked" duration="16"/>
+        <testCase name="Q15 Q15Component getAllUsers should method called after button clicked" duration="27"/>
+        <testCase name="Q15 Q15Component getAllUsers should li element not exist until button clicked" duration="22"/>
+        <testCase name="Q15 Q15Component getAllUsers should li element exist after button clicked" duration="22"/>
+        <testCase name="Q15 Q15Service should create" duration="5"/>
+        <testCase name="Q15 Q15Service getUsers should return users from constant user list data" duration="4"/>
     </file>
 </testExecutions>

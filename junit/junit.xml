@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="7" failures="0" errors="0" time="4.684">
-  <testsuite name="Q20" errors="0" failures="0" skipped="0" timestamp="2022-02-06T14:29:33" time="3.266" tests="7">
-    <testcase classname="Q20 Q20Component should create" name="Q20 Q20Component should create" time="0.078">
+<testsuites name="jest tests" tests="9" failures="0" errors="0" time="6.249">
+  <testsuite name="Q15" errors="0" failures="0" skipped="0" timestamp="2022-02-06T14:55:46" time="4.808" tests="9">
+    <testcase classname="Q15 Q15Component should create" name="Q15 Q15Component should create" time="0.082">
     </testcase>
-    <testcase classname="Q20 Q20Component onClick should navigate to detail related route path with given data" name="Q20 Q20Component onClick should navigate to detail related route path with given data" time="0.031">
+    <testcase classname="Q15 Q15Component should users not to be defined until button clicked" name="Q15 Q15Component should users not to be defined until button clicked" time="0.024">
     </testcase>
-    <testcase classname="Q20 Q20ChildComponent should create" name="Q20 Q20ChildComponent should create" time="0.033">
+    <testcase classname="Q15 Q15Component should users to be defined after button clicked" name="Q15 Q15Component should users to be defined after button clicked" time="0.033">
     </testcase>
-    <testcase classname="Q20 Q20ChildComponent should users equals to router state data" name="Q20 Q20ChildComponent should users equals to router state data" time="0.02">
+    <testcase classname="Q15 Q15Component getAllUsers should method called after button clicked" name="Q15 Q15Component getAllUsers should method called after button clicked" time="0.016">
     </testcase>
-    <testcase classname="Q20 Q20ChildComponent should ahmet li element exist with passed users" name="Q20 Q20ChildComponent should ahmet li element exist with passed users" time="0.017">
+    <testcase classname="Q15 Q15Component getAllUsers should method called after button clicked" name="Q15 Q15Component getAllUsers should method called after button clicked" time="0.027">
     </testcase>
-    <testcase classname="Q20 Q20ChildComponent should jasper li element exist with passed users" name="Q20 Q20ChildComponent should jasper li element exist with passed users" time="0.038">
+    <testcase classname="Q15 Q15Component getAllUsers should li element not exist until button clicked" name="Q15 Q15Component getAllUsers should li element not exist until button clicked" time="0.022">
     </testcase>
-    <testcase classname="Q20 Q20ChildComponent should marta li element exist with passed users" name="Q20 Q20ChildComponent should marta li element exist with passed users" time="0.039">
+    <testcase classname="Q15 Q15Component getAllUsers should li element exist after button clicked" name="Q15 Q15Component getAllUsers should li element exist after button clicked" time="0.022">
+    </testcase>
+    <testcase classname="Q15 Q15Service should create" name="Q15 Q15Service should create" time="0.005">
+    </testcase>
+    <testcase classname="Q15 Q15Service getUsers should return users from constant user list data" name="Q15 Q15Service getUsers should return users from constant user list data" time="0.004">
     </testcase>
   </testsuite>
 </testsuites>

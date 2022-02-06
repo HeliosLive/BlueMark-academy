@@ -70,11 +70,17 @@ describe('Q11', () => {
 
   describe('Q11Service', () => {
     let spectator: SpectatorService<Q11Service>;
+    const users = ['ahmet', 'jasper', 'marta'];
+
     const createService = createServiceFactory({
       service: Q11Service,
     });
 
-    beforeEach(() => (spectator = createService()));
+    beforeEach(() => {
+      spectator = createService();
+
+      spectator.service.users = users;
+    });
 
     it('should create', () => {
       expect(spectator.service).toBeTruthy();
