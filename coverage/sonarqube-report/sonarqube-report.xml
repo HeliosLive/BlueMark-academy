@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
-    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q19\q19.component.spec.ts">
-        <testCase name="Q19 should create" duration="63"/>
-        <testCase name="Q19 setSize should small button triggers class correctly" duration="30"/>
-        <testCase name="Q19 setSize should normal button triggers class correctly" duration="23"/>
-        <testCase name="Q19 setSize should large button triggers class correctly" duration="9"/>
-        <testCase name="Q19 setVisibility should hidden button triggers visibility style correctly" duration="19"/>
-        <testCase name="Q19 setVisibility should visible button triggers visibility style correctly" duration="14"/>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q20\q20.component.spec.ts">
+        <testCase name="Q20 Q20Component should create" duration="78"/>
+        <testCase name="Q20 Q20Component onClick should navigate to detail related route path with given data" duration="31"/>
+        <testCase name="Q20 Q20ChildComponent should create" duration="33"/>
+        <testCase name="Q20 Q20ChildComponent should users equals to router state data" duration="20"/>
+        <testCase name="Q20 Q20ChildComponent should ahmet li element exist with passed users" duration="17"/>
+        <testCase name="Q20 Q20ChildComponent should jasper li element exist with passed users" duration="38"/>
+        <testCase name="Q20 Q20ChildComponent should marta li element exist with passed users" duration="39"/>
     </file>
 </testExecutions>

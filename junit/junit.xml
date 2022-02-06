@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="6" failures="0" errors="0" time="3.95">
-  <testsuite name="Q19" errors="0" failures="0" skipped="0" timestamp="2022-02-05T14:46:15" time="2.987" tests="6">
-    <testcase classname="Q19 should create" name="Q19 should create" time="0.063">
+<testsuites name="jest tests" tests="7" failures="0" errors="0" time="4.684">
+  <testsuite name="Q20" errors="0" failures="0" skipped="0" timestamp="2022-02-06T14:29:33" time="3.266" tests="7">
+    <testcase classname="Q20 Q20Component should create" name="Q20 Q20Component should create" time="0.078">
     </testcase>
-    <testcase classname="Q19 setSize should small button triggers class correctly" name="Q19 setSize should small button triggers class correctly" time="0.03">
+    <testcase classname="Q20 Q20Component onClick should navigate to detail related route path with given data" name="Q20 Q20Component onClick should navigate to detail related route path with given data" time="0.031">
     </testcase>
-    <testcase classname="Q19 setSize should normal button triggers class correctly" name="Q19 setSize should normal button triggers class correctly" time="0.023">
+    <testcase classname="Q20 Q20ChildComponent should create" name="Q20 Q20ChildComponent should create" time="0.033">
     </testcase>
-    <testcase classname="Q19 setSize should large button triggers class correctly" name="Q19 setSize should large button triggers class correctly" time="0.009">
+    <testcase classname="Q20 Q20ChildComponent should users equals to router state data" name="Q20 Q20ChildComponent should users equals to router state data" time="0.02">
     </testcase>
-    <testcase classname="Q19 setVisibility should hidden button triggers visibility style correctly" name="Q19 setVisibility should hidden button triggers visibility style correctly" time="0.019">
+    <testcase classname="Q20 Q20ChildComponent should ahmet li element exist with passed users" name="Q20 Q20ChildComponent should ahmet li element exist with passed users" time="0.017">
     </testcase>
-    <testcase classname="Q19 setVisibility should visible button triggers visibility style correctly" name="Q19 setVisibility should visible button triggers visibility style correctly" time="0.014">
+    <testcase classname="Q20 Q20ChildComponent should jasper li element exist with passed users" name="Q20 Q20ChildComponent should jasper li element exist with passed users" time="0.038">
+    </testcase>
+    <testcase classname="Q20 Q20ChildComponent should marta li element exist with passed users" name="Q20 Q20ChildComponent should marta li element exist with passed users" time="0.039">
     </testcase>
   </testsuite>
 </testsuites>
