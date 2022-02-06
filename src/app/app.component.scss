@@ -1,0 +1,13 @@
+:host {
+  display: flex;
+  align-items: center;
+
+  .menu {
+    display: grid;
+    padding-right: 3rem;
+
+    li {
+      margin-top: 1rem;
+    }
+  }
+}

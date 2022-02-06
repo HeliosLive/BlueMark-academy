@@ -1,23 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="9" failures="0" errors="0" time="6.249">
-  <testsuite name="Q15" errors="0" failures="0" skipped="0" timestamp="2022-02-06T14:55:46" time="4.808" tests="9">
-    <testcase classname="Q15 Q15Component should create" name="Q15 Q15Component should create" time="0.082">
+<testsuites name="jest tests" tests="21" failures="0" errors="0" time="7.092">
+  <testsuite name="AppComponent" errors="0" failures="0" skipped="0" timestamp="2022-02-06T15:17:15" time="5.391" tests="21">
+    <testcase classname="AppComponent should create" name="AppComponent should create" time="0.096">
     </testcase>
-    <testcase classname="Q15 Q15Component should users not to be defined until button clicked" name="Q15 Q15Component should users not to be defined until button clicked" time="0.024">
+    <testcase classname="AppComponent onNavigate should Question 1 li path exist and navigate to q1 url" name="AppComponent onNavigate should Question 1 li path exist and navigate to q1 url" time="0.044">
     </testcase>
-    <testcase classname="Q15 Q15Component should users to be defined after button clicked" name="Q15 Q15Component should users to be defined after button clicked" time="0.033">
+    <testcase classname="AppComponent onNavigate should Question 2 li path exist and navigate to q2 url" name="AppComponent onNavigate should Question 2 li path exist and navigate to q2 url" time="0.025">
     </testcase>
-    <testcase classname="Q15 Q15Component getAllUsers should method called after button clicked" name="Q15 Q15Component getAllUsers should method called after button clicked" time="0.016">
+    <testcase classname="AppComponent onNavigate should Question 3 li path exist and navigate to q3 url" name="AppComponent onNavigate should Question 3 li path exist and navigate to q3 url" time="0.034">
     </testcase>
-    <testcase classname="Q15 Q15Component getAllUsers should method called after button clicked" name="Q15 Q15Component getAllUsers should method called after button clicked" time="0.027">
+    <testcase classname="AppComponent onNavigate should Question 4 li path exist and navigate to q4 url" name="AppComponent onNavigate should Question 4 li path exist and navigate to q4 url" time="0.04">
     </testcase>
-    <testcase classname="Q15 Q15Component getAllUsers should li element not exist until button clicked" name="Q15 Q15Component getAllUsers should li element not exist until button clicked" time="0.022">
+    <testcase classname="AppComponent onNavigate should Question 5 li path exist and navigate to q5 url" name="AppComponent onNavigate should Question 5 li path exist and navigate to q5 url" time="0.038">
     </testcase>
-    <testcase classname="Q15 Q15Component getAllUsers should li element exist after button clicked" name="Q15 Q15Component getAllUsers should li element exist after button clicked" time="0.022">
+    <testcase classname="AppComponent onNavigate should Question 6 li path exist and navigate to q6 url" name="AppComponent onNavigate should Question 6 li path exist and navigate to q6 url" time="0.056">
     </testcase>
-    <testcase classname="Q15 Q15Service should create" name="Q15 Q15Service should create" time="0.005">
+    <testcase classname="AppComponent onNavigate should Question 7 li path exist and navigate to q7 url" name="AppComponent onNavigate should Question 7 li path exist and navigate to q7 url" time="0.051">
     </testcase>
-    <testcase classname="Q15 Q15Service getUsers should return users from constant user list data" name="Q15 Q15Service getUsers should return users from constant user list data" time="0.004">
+    <testcase classname="AppComponent onNavigate should Question 8 li path exist and navigate to q8 url" name="AppComponent onNavigate should Question 8 li path exist and navigate to q8 url" time="0.066">
+    </testcase>
+    <testcase classname="AppComponent onNavigate should Question 9 li path exist and navigate to q9 url" name="AppComponent onNavigate should Question 9 li path exist and navigate to q9 url" time="0.058">
+    </testcase>
+    <testcase classname="AppComponent onNavigate should Question 10 li path exist and navigate to q10 url" name="AppComponent onNavigate should Question 10 li path exist and navigate to q10 url" time="0.058">
+    </testcase>
+    <testcase classname="AppComponent onNavigate should Question 11 li path exist and navigate to q11 url" name="AppComponent onNavigate should Question 11 li path exist and navigate to q11 url" time="0.063">
+    </testcase>
+    <testcase classname="AppComponent onNavigate should Question 12 li path exist and navigate to q12 url" name="AppComponent onNavigate should Question 12 li path exist and navigate to q12 url" time="0.07">
+    </testcase>
+    <testcase classname="AppComponent onNavigate should Question 13 li path exist and navigate to q13 url" name="AppComponent onNavigate should Question 13 li path exist and navigate to q13 url" time="0.05">
+    </testcase>
+    <testcase classname="AppComponent onNavigate should Question 14 li path exist and navigate to q14 url" name="AppComponent onNavigate should Question 14 li path exist and navigate to q14 url" time="0.07">
+    </testcase>
+    <testcase classname="AppComponent onNavigate should Question 15 li path exist and navigate to q15 url" name="AppComponent onNavigate should Question 15 li path exist and navigate to q15 url" time="0.063">
+    </testcase>
+    <testcase classname="AppComponent onNavigate should Question 16 li path exist and navigate to q16 url" name="AppComponent onNavigate should Question 16 li path exist and navigate to q16 url" time="0.042">
+    </testcase>
+    <testcase classname="AppComponent onNavigate should Question 17 li path exist and navigate to q17 url" name="AppComponent onNavigate should Question 17 li path exist and navigate to q17 url" time="0.042">
+    </testcase>
+    <testcase classname="AppComponent onNavigate should Question 18 li path exist and navigate to q18 url" name="AppComponent onNavigate should Question 18 li path exist and navigate to q18 url" time="0.047">
+    </testcase>
+    <testcase classname="AppComponent onNavigate should Question 19 li path exist and navigate to q19 url" name="AppComponent onNavigate should Question 19 li path exist and navigate to q19 url" time="0.06">
+    </testcase>
+    <testcase classname="AppComponent onNavigate should Question 20 li path exist and navigate to q20 url" name="AppComponent onNavigate should Question 20 li path exist and navigate to q20 url" time="0.061">
     </testcase>
   </testsuite>
 </testsuites>

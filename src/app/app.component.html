@@ -1,1 +1,7 @@
+<div class="menu">
+  <ul>
+    <li [attr.testId]="question.path" *ngFor="let question of questionList" (click)="onNavigate(question)">
+      {{question.text}}</li>
+  </ul>
+</div>
 <router-outlet></router-outlet>
