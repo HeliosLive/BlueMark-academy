@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1644071933003" clover="3.2.0">
-  <project timestamp="1644071933003" name="All files">
-    <metrics statements="181" coveredstatements="181" conditionals="137" coveredconditionals="113" methods="70" coveredmethods="70" elements="388" coveredelements="364" complexity="0" loc="181" ncloc="181" packages="20" files="20" classes="20"/>
+<coverage generated="1644157375699" clover="3.2.0">
+  <project timestamp="1644157375699" name="All files">
+    <metrics statements="190" coveredstatements="190" conditionals="149" coveredconditionals="122" methods="73" coveredmethods="73" elements="412" coveredelements="385" complexity="0" loc="190" ncloc="190" packages="21" files="21" classes="21"/>
     <package name="app">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="app.component.ts" path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\app.component.ts">
@@ -213,6 +213,21 @@
         <line num="1" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.q20">
+      <metrics statements="9" coveredstatements="9" conditionals="12" coveredconditionals="9" methods="3" coveredmethods="3"/>
+      <file name="q20.component.ts" path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q20\q20.component.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="12" coveredconditionals="9" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="2" type="cond" truecount="9" falsecount="3"/>
       </file>
     </package>
     <package name="app.q3">

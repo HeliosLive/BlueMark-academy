@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
-    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\q19\q19.component.spec.ts">
-        <testCase name="Q19 should create" duration="63"/>
-        <testCase name="Q19 setSize should small button triggers class correctly" duration="30"/>
-        <testCase name="Q19 setSize should normal button triggers class correctly" duration="23"/>
-        <testCase name="Q19 setSize should large button triggers class correctly" duration="9"/>
-        <testCase name="Q19 setVisibility should hidden button triggers visibility style correctly" duration="19"/>
-        <testCase name="Q19 setVisibility should visible button triggers visibility style correctly" duration="14"/>
+    <file path="C:\Users\a.aydin\Desktop\Personal Apps\BlueMark-academy\src\app\app.component.spec.ts">
+        <testCase name="AppComponent should create" duration="96"/>
+        <testCase name="AppComponent onNavigate should Question 1 li path exist and navigate to q1 url" duration="44"/>
+        <testCase name="AppComponent onNavigate should Question 2 li path exist and navigate to q2 url" duration="25"/>
+        <testCase name="AppComponent onNavigate should Question 3 li path exist and navigate to q3 url" duration="34"/>
+        <testCase name="AppComponent onNavigate should Question 4 li path exist and navigate to q4 url" duration="40"/>
+        <testCase name="AppComponent onNavigate should Question 5 li path exist and navigate to q5 url" duration="38"/>
+        <testCase name="AppComponent onNavigate should Question 6 li path exist and navigate to q6 url" duration="56"/>
+        <testCase name="AppComponent onNavigate should Question 7 li path exist and navigate to q7 url" duration="51"/>
+        <testCase name="AppComponent onNavigate should Question 8 li path exist and navigate to q8 url" duration="66"/>
+        <testCase name="AppComponent onNavigate should Question 9 li path exist and navigate to q9 url" duration="58"/>
+        <testCase name="AppComponent onNavigate should Question 10 li path exist and navigate to q10 url" duration="58"/>
+        <testCase name="AppComponent onNavigate should Question 11 li path exist and navigate to q11 url" duration="63"/>
+        <testCase name="AppComponent onNavigate should Question 12 li path exist and navigate to q12 url" duration="70"/>
+        <testCase name="AppComponent onNavigate should Question 13 li path exist and navigate to q13 url" duration="50"/>
+        <testCase name="AppComponent onNavigate should Question 14 li path exist and navigate to q14 url" duration="70"/>
+        <testCase name="AppComponent onNavigate should Question 15 li path exist and navigate to q15 url" duration="63"/>
+        <testCase name="AppComponent onNavigate should Question 16 li path exist and navigate to q16 url" duration="42"/>
+        <testCase name="AppComponent onNavigate should Question 17 li path exist and navigate to q17 url" duration="42"/>
+        <testCase name="AppComponent onNavigate should Question 18 li path exist and navigate to q18 url" duration="47"/>
+        <testCase name="AppComponent onNavigate should Question 19 li path exist and navigate to q19 url" duration="60"/>
+        <testCase name="AppComponent onNavigate should Question 20 li path exist and navigate to q20 url" duration="61"/>
     </file>
 </testExecutions>
