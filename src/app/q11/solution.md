@@ -1,6 +1,9 @@
  
 # In this question, we are expecting from you to create a username claim form with required and existance validations. Use the  service to validate your input value and present the status within `p` html element
 
+>Category Keywords: [`Reactive form`, `async validator`, `observable method return`]
+>Nice to have Keywords: [`Form control field parsing` ,`rxjs scheduled` ,`rxjs asapScheduler`, `rxjs of`]
+
 >Difficulty level : Hard 
 > - Junior developer : ~55mins 
 > - Medior developer : ~27mins 

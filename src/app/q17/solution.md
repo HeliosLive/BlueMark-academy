@@ -1,6 +1,8 @@
  
 # In this question, we are expecting you to connect registerForm with the child component. When the user types something inside the input `p` tag should present that value. Important form controls like `dirty`, `touched` and `disabled` should be accessible between **angular form API** and child component.
 
+>Category Keywords: [`Reactive form`, `custom form control`, `control value accessors`]
+
 >Difficulty level : Hard 
 > - Junior developer : ~50mins 
 > - Medior developer : ~15mins 

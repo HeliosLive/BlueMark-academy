@@ -1,5 +1,7 @@
  
-# In this question, we are expecting a behaviour from buttons to increase and decrease the current counter value.
+# In this question, we are expecting a behaviour from buttons to increase and decrease the current counter value and present it inside the `p` html element tag.
+
+>Category Keywords: [`Interpolation`, `method calls`, `typescript union type`]
 
 >Difficulty level : Easy 
 > - Junior developer : ~5mins 
@@ -11,7 +13,7 @@
 ```html
 <button testId="increase-button">increase</button>
 <button testId="decrease-button">decrease</button>
-<p>current counter value : {{counter}}</p>
+<p>current counter value : </p>
 ```
 
 <details>

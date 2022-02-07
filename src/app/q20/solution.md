@@ -1,10 +1,12 @@
  
 # In this question, we are expecting you to navigate to `users` path after clicking the button; with relativeTo current route and passing the users list as a `users` state. Most importantly we don't want that url changing. Child component has a `ul li` list element so after navigating we want to see the list underneath the button.
 
+>Category Keywords: [`Router`, `ActivatedRoute`, `Router data passing between paths`, `router-outlet`, `skipLocationChange`, `getCurrentNavigation`]
+
 >Difficulty level : Medium 
 > - Junior developer : ~22mins 
 > - Medior developer : ~15mins 
-> - Senior developer : ~7mins
+> - Senior developer : ~8mins
 
 ### 1. Html
 

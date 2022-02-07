@@ -1,6 +1,8 @@
  
 # In this question, we are expecting you to bind `class` and `style` by order into `img` html element with clicking related buttons.
 
+>Category Keywords: [`ngClass directive`, `ngStyle directive`]
+
 >Difficulty level : Easy 
 > - Junior developer : ~15mins 
 > - Medior developer : ~10mins 

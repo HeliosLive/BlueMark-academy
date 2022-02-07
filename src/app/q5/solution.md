@@ -1,6 +1,8 @@
  
 # In this question, we are expecting from you to pass a value from child to parent that we already typed on input in child. With this way we would like to present the passing parameter string inside a `p` tag in parent.
 
+>Category Keywords: [`@Output() data passing`]
+
 >Difficulty level : Easy 
 > - Junior developer : ~15mins 
 > - Medior developer : ~8mins 

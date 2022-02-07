@@ -1,6 +1,8 @@
  
 # In this question, we are expecting from you to change the color variable after button clicks and bind the to the child component which triggers the host and set a specific class.
 
+>Category Keywords: [`@HostBinding`]
+
 >Difficulty level : Medium 
 > - Junior developer : ~15mins 
 > - Medior developer : ~8mins 

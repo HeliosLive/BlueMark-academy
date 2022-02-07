@@ -1,6 +1,8 @@
  
 # In this question, we are expecting from you to trigger `p` element inner text with typing on input element
 
+>Category Keywords: [`two way binding`]
+
 >Difficulty level : Easy 
 > - Junior developer : ~10mins 
 > - Medior developer : ~6mins 

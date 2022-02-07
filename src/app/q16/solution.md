@@ -1,6 +1,8 @@
  
 # In this question, we are expecting you to combine shoe & stock observables and create mapped `Store` data to assign existing store observable. Then, consume that observable to fill the table with the following `name`, `price`, and `quantity` fields. if there is no data show `noDataErrorText` variable to present.
 
+>Category Keywords: [`rxjs BehaviorSubject`, `rxjs combineLatest`, `rxjs map`, `async pipe`]
+
 >Difficulty level : Medium 
 > - Junior developer : ~35mins 
 > - Medior developer : ~20mins 

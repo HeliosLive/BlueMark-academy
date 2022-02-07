@@ -1,6 +1,9 @@
  
 # In this question, we are expecting you to create a fake simulation for upload progress. After clicking the button it should be disabled and not triggered again. `progress` element should display the progress correctly. `p` element shouldn't be displayed until the upload process starts. Afterward, until the fake timer process completes `p` element should display loadingText then after the process is completed loadingText should be replaced with successText.  
 
+>Category Keywords: [`async pipe`, `rxjs takeWhile operator`]
+>Nice to have Keywords: [`rxjs tap operator`]
+
 >Difficulty level : Medium 
 > - Junior developer : ~35mins 
 > - Medior developer : ~20mins 

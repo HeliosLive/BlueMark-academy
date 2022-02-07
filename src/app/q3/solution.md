@@ -1,6 +1,8 @@
  
 # In this question, we are expecting from you to filter `in stock` fruits with typing on input element. If there is no fruit what you search, show the emptyValue text (case sensitivity is important)
 
+>Category Keywords: [`two way binding`, `ngIf structural directive`, `ngFor structural directive`, `array filter`]
+
 >Difficulty level : Easy 
 > - Junior developer : ~20mins 
 > - Medior developer : ~11mins 

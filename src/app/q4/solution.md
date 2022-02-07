@@ -1,6 +1,8 @@
  
 # In this question, we are expecting from you to pass the counter value to the child component -some how- and use *ngFor loop a `p` html element which text includes loop index number inside that child component (show the child component only if counter is greater than 0)
 
+>Category Keywords: [`@Input() data passing`,`ngIf structural directive`, `ngFor structural directive`]
+
 >Difficulty level : Easy 
 > - Junior developer : ~25mins 
 > - Medior developer : ~12mins 

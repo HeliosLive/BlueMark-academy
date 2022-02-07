@@ -1,7 +1,9 @@
  
 # In this question, we are expecting from you to create a highlight directive with the color parameter. Colors are given inside `div` elements as text. `mouseenter` event should set the `background-color` but `mouseleave` event should reset the `background-color`
 
->Difficulty level : Easy 
+>Category Keywords: [`Custom directive`, `@HostListener`]
+
+>Difficulty level : Medium 
 > - Junior developer : ~18mins 
 > - Medior developer : ~9mins 
 > - Senior developer : ~4mins
@@ -51,13 +53,9 @@ export class Q8Component {}
 export class Q8HighlightDirective {
   @Input('color') color!: 'red' | 'green' | 'yellow';
 
-  @HostListener('mouseenter') onMouseEnter() {
-    // playground
-  }
+  // hint : mouseenter and mouseleave
+  // playground
 
-  @HostListener('mouseleave') onMouseLeave() {
-    // playground
-  }
   private highlight(color: string) {
     // playground
   }

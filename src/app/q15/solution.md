@@ -1,6 +1,9 @@
  
 # In this question, we are expecting you to list the users after clicking the button. Pass the user list from the related service to component and consume it then present the users with `li` tag.
 
+>Category Keywords: [`subscribe`, `observable consume`, `observable data return`,]
+>Nice to have Keywords: [`rxjs tap operator`, `rxjs take operator`]
+
 >Difficulty level : Easy 
 > - Junior developer : ~15mins 
 > - Medior developer : ~6mins 
